@@ -118,6 +118,7 @@ Argentina 🇦🇷
 
 > “Knowledge multiplies when shared.”
 
-<div align="right" style="font-size: 2em;">
-    <a href="../README.md">⬅️ Back</a>
-</div>
+---
+
+🔙 [Back to Main DevCourses README](../../../README.md)
+

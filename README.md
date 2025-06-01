@@ -36,10 +36,10 @@ This repository covers a wide range of development topics, including:
 ```text
 DevCourses/
 ├── languages/             # Courses on programming languages
-│   ├── python/     # e.g. Python Programming 2025
+│   ├── python/            # e.g. Professional Python Course 2025
 │   └── java/
 ├── frameworks/            # Courses about frontend/backend frameworks
-│   ├── react/
+│   ├── react/             # e.g. React – Talento Tech 1C2025
 │   └── symfony/
 ├── tools/                 # Courses on tools and utilities
 │   ├── git/
@@ -50,8 +50,7 @@ DevCourses/
 │   ├── testing/
 │   └── devops/
 ├── fullstack/             # Courses covering frontend, backend, UX/UI, deployment, etc.
-│   ├── cudi_diploma/
-│   └── talento_tech/
+│   └── diploma/           # e.g. Fullstack Web Development – CUDI Diploma 2025
 ├── misc/                  # Any other technical or soft skill course
 │   └── linux_basics/
 └── README.md              # Repository overview and directory guide
@@ -59,7 +58,19 @@ DevCourses/
 
 > 📝 Each course folder includes its own README.md, code samples, notes, and any relevant documentation.
 
-## 📌 Conventions
+---
+
+## 📚 Course Index
+
+Quick links to the individual course READMEs:
+
+- 🐍 [Professional Python Course (2025)](languages/python/profesional/README.md)
+- ⚛️ [React – Talento Tech (1C2025)](frameworks/react/ecommerce/README.md)
+- 🌐 [Fullstack Web Development – CUDI Diploma 2025](fullstack/diploma/README.md)
+
+---
+
+# 📌 Conventions
 
 - Folder names are lowercase and use underscores (\_) to separate words.
 - Each course has its own isolated folder to keep content well-organized.
