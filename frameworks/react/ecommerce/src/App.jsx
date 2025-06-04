@@ -1,9 +1,12 @@
 import "./App.css";
-import PreDelivery from "./exercises/pre_delivery/PreDelivery";
+import Crud from "./crud/Crud";
 function App() {
   return (
     <>
-      <PreDelivery />
+      <div className="App">
+        <h1>Product Management</h1>
+        <Crud />
+      </div>
     </>
   );
 }
