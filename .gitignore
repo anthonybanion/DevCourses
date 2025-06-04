@@ -144,6 +144,12 @@ replit.nix
 !**/*.py
 !**/*.sh
 !**/*.txt
+!**/*.ts
+!**/*.tsx
+!**/*.xml
+!**/*.yml
+!**/*.yaml
+!**/*.jsx
 !**/.gitignore
 !**/README.md
 
