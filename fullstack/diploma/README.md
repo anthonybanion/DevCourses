@@ -46,24 +46,24 @@ Each week of the diploma will be tracked via a GitLab **issue**, including:
 - 🐞 Bugs found and solutions
 - 📌 Notes and reflections
 
-| Week | Topic                           | Issue Link |
-| ---- | ------------------------------- | ---------- |
-| 1    | Introduction and Facilities     | #3         |
-| 2    | HTML/CSS Basic Exercises        | #4         |
-| 3    | HTML/CSS Intermediate Exercises | #5         |
-| 4    | HTML/CSS Advanced Exercises     | #6         |
-| 5    | JavaScript Basics               | #7         |
-| 6    | JavaScript Intermediate         | #8         |
-| 7    | JavaScript Advanced             | #9         |
-| 8    | React Basics                    | #10        |
-| 9    | React Intermediate              | #11        |
-| 10   | React Advanced                  | #12        |
-| 11   | Node.js Basics                  | #13        |
-| 12   | Node.js Intermediate            | #14        |
-| 13   | Node.js Advanced                | #15        |
-| 14   | Express.js and MongoDB          | #15        |
-| 15   | UX Design Principles            | #16        |
-| 16   | Final Project Demo              | #17        |
+| Week | Topic                           | Issue Link                                                         |
+| ---- | ------------------------------- | ------------------------------------------------------------------ |
+| 1    | Introduction and Facilities     | [Issue #26](https://github.com/anthonybanion/DevCourses/issues/26) |
+| 2    | HTML/CSS Basic Exercises        | [Issue #27](https://github.com/anthonybanion/DevCourses/issues/27) |
+| 3    | HTML/CSS Intermediate Exercises | [Issue #28](https://github.com/anthonybanion/DevCourses/issues/28) |
+| 4    | HTML/CSS Advanced Exercises     | [Issue #29](https://github.com/anthonybanion/DevCourses/issues/29) |
+| 5    | JavaScript Basics               | [Issue #30](https://github.com/anthonybanion/DevCourses/issues/30) |
+| 6    | JavaScript Intermediate         | [Issue #31](https://github.com/anthonybanion/DevCourses/issues/31) |
+| 7    | JavaScript Advanced             | [Issue #32](https://github.com/anthonybanion/DevCourses/issues/32) |
+| 8    | React Basics                    | [Issue #33](https://github.com/anthonybanion/DevCourses/issues/33) |
+| 9    | React Intermediate              | [Issue #34](https://github.com/anthonybanion/DevCourses/issues/34) |
+| 10   | React Advanced                  | [Issue #35](https://github.com/anthonybanion/DevCourses/issues/35) |
+| 11   | Node.js Basics                  | [Issue #36](https://github.com/anthonybanion/DevCourses/issues/36) |
+| 12   | Node.js Intermediate            | [Issue #37](https://github.com/anthonybanion/DevCourses/issues/37) |
+| 13   | Node.js Advanced                | [Issue #38](https://github.com/anthonybanion/DevCourses/issues/38) |
+| 14   | Express.js and MongoDB          | [Issue #39](https://github.com/anthonybanion/DevCourses/issues/39) |
+| 15   | UX Design Principles            | [Issue #40](https://github.com/anthonybanion/DevCourses/issues/40) |
+| 16   | Final Project Demo              | [Issue #41](https://github.com/anthonybanion/DevCourses/issues/41) |
 
 ---
 
