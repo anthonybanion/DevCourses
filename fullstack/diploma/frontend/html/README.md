@@ -4,16 +4,16 @@ Welcome to this repository, where you'll find a series of practical HTML exercis
 
 ## 🟢 Level 1: Basic Exercises
 
-1. **Title and paragraph:** Create an HTML page with an \<h1> title and a \<p> paragraph.
-2. **Ordered list:** Create an ordered list of your top 5 favorite foods.
-3. **Unordered list:** Create an unordered list of 5 hobbies.
-4. **Image with text:** Insert an image and a descriptive text below it.
-5. **External link:** Add a link that leads to google.com.
-6. **Multiple headings:** Display headings from \<h1> to \<h6>.
-7. **Bold and italic:** Create a paragraph with bold and italic text.
-8. **Horizontal line:** Add a horizontal line between two paragraphs.
-9. **Line break:** Create a text using line breaks with \<br>.
-10. **Title tag:** Show a custom title in the browser tab.
+1. ~~**Title and paragraph:**~~ Create an HTML page with an \<h1> title and a \<p> paragraph.
+2. ~~**Ordered list:**~~ Create an ordered list of your top 5 favorite foods.
+3. ~~**Unordered list:**~~ Create an unordered list of 5 hobbies.
+4. ~~**Image with text:**~~ Insert an image and a descriptive text below it.
+5. ~~**External link:**~~ Add a link that leads to google.com.
+6. ~~**Multiple headings:**~~ Display headings from \<h1> to \<h6>.
+7. ~~**Bold and italic:**~~ Create a paragraph with bold and italic text.
+8. ~~**Horizontal line:**~~ Add a horizontal line between two paragraphs.
+9. ~~**Line break:**~~ Create a text using line breaks with \<br>.
+10. ~~**Title tag:**~~ Show a custom title in the browser tab.
 
 ## 🟡 Level 2: Intermediate Exercises
 

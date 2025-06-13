@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+  
+  This HTML document demonstrates the use of line breaks 
+  and visual separators.
+  
+  File: lineBreakAndSeparators.html
+  Author: Anthony Bañon
+  Created: 2025-06-13
+  Last Updated: 2025-06-13
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Line Breaks and Visual Separators</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      hr,
+      pre,
+      div.separator {
+        margin: 20px 0;
+      }
+      .separator {
+        text-align: center;
+        border-top: 1px solid #ccc;
+        line-height: 0.1em;
+        margin: 30px 0 30px;
+      }
+      .separator span {
+        background: #fff;
+        padding: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Line Breaks and Separators</h1>
+
+    <!-- Line break with <br> -->
+    <h2>&lt;br&gt; Line Break</h2>
+    <p>
+      This is the first line.<br />
+      This is the second line.<br />
+      This is the third line.
+    </p>
+    <p>
+      <strong>Use:</strong> Inline line breaks, e.g., inside paragraphs or to
+      break text.
+    </p>
+
+    <!-- Horizontal line with <hr> -->
+    <h2>&lt;hr&gt; Horizontal Line</h2>
+    <p>This paragraph is above the line.</p>
+    <hr />
+    <p>This paragraph is below the line.</p>
+    <p><strong>Use:</strong> To separate sections or content blocks.</p>
+
+    <!-- Styled <hr> examples -->
+    <h3>Styled Horizontal Lines</h3>
+    <hr style="border: 2px dashed red; width: 75%" />
+    <p>Dashed line</p>
+
+    <hr style="border: 2px dotted blue; width: 75%" />
+    <p>Dotted line</p>
+
+    <hr style="border: 3px double green; width: 75%" />
+    <p>Double line</p>
+
+    <hr style="border: 4px groove purple; width: 75%" />
+    <p>Groove line</p>
+
+    <hr style="border: 4px ridge orange; width: 75%" />
+    <p>Ridge line</p>
+
+    <hr style="border: 4px inset pink; width: 75%" />
+    <p>Inset line</p>
+
+    <hr style="border: 4px outset cyan; width: 75%" />
+    <p>Outset line</p>
+
+    <!-- Decorative text separators using <pre> -->
+    <h2>Decorative Separators (using &lt;pre&gt;)</h2>
+    <pre>------------------------------</pre>
+    <pre>..............................</pre>
+    <pre>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</pre>
+    <pre>-=-=-= -=-= -=-= -=-=-=</pre>
+    <pre>✧ ✧ ✧ ✧ ✧ ✧ ✧</pre>
+    <pre>⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆</pre>
+    <p>
+      <strong>Use:</strong> For visual breaks or styling inside content (not
+      semantic).
+    </p>
+
+    <!-- Entities as visual separators -->
+    <h2>Visual Lines using HTML Entities</h2>
+    <pre>&bull; &bull; &bull; &bull;</pre>
+    <pre>&middot; &middot; &middot; &middot;</pre>
+    <pre>&mdash;&mdash;&mdash;&mdash;</pre>
+    <pre>&hellip; &hellip; &hellip;</pre>
+    <p>
+      <strong>Use:</strong> Simple line-like patterns with special characters.
+    </p>
+
+    <!-- CSS-only separator with text -->
+    <h2>CSS Separator with Text</h2>
+    <div class="separator">
+      <span>OR</span>
+    </div>
+    <p>
+      <strong>Use:</strong> Stylish separator with centered label (e.g., "OR"
+      between sections).
+    </p>
+  </body>
+</html>

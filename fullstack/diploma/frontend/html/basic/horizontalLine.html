@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--
+  
+  This HTML document demonstrates various styles 
+  of horizontal lines using the <hr> tag. 
+  Each line has a different style, including solid, 
+  dashed, dotted, double, groove, ridge, inset, 
+  outset, hidden, and none.
+  
+  File: horizontalLine.html
+  Author: Anthony Bañon
+  Created: 2025-06-13
+  Last Updated: 2025-06-13
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Horizontal Line Styles</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      .label {
+        margin: 10px 0 5px;
+        font-weight: bold;
+      }
+      .description {
+        font-style: italic;
+        font-weight: normal;
+      }
+      .line {
+        width: 75%;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>All HTML Horizontal Line Styles</h1>
+
+    <p class="label">Default Line</p>
+    <hr class="line" />
+
+    <p class="label">
+      Solid Line: <span class="description">Continuous line</span>
+    </p>
+    <hr class="line" style="border: 3px solid black" />
+
+    <p class="label">
+      Dashed Line: <span class="description">Line with dashes</span>
+    </p>
+    <hr class="line" style="border: 3px dashed red" />
+
+    <p class="label">
+      Dotted Line: <span class="description">Line with dots</span>
+    </p>
+    <hr class="line" style="border: 3px dotted blue" />
+
+    <p class="label">
+      Double Line: <span class="description">Two solid lines</span>
+    </p>
+    <hr class="line" style="border: 4px double green" />
+
+    <p class="label">
+      Groove Line: <span class="description">Relief effect on descent</span>
+    </p>
+    <hr class="line" style="border: 8px groove rgb(97, 212, 25)" />
+
+    <p class="label">
+      Ridge Line: <span class="description">Relief effect on ascent</span>
+    </p>
+    <hr class="line" style="border: 8px ridge rgb(204, 183, 96)" />
+
+    <p class="label">
+      Inset Line: <span class="description">Indented line</span>
+    </p>
+    <hr class="line" style="border: 7px inset pink" />
+
+    <p class="label">
+      Outset Line: <span class="description">Raised line</span>
+    </p>
+    <hr class="line" style="border: 8px outset cyan" />
+
+    <p class="label">
+      Hidden Line (invisible):
+      <span class="description">No line displayed</span>
+    </p>
+    <hr class="line" style="border: 3px hidden gray" />
+
+    <p class="label">
+      None (no line): <span class="description">No line displayed</span>
+    </p>
+    <hr class="line" style="border: none" />
+  </body>
+</html>
