@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+  
+  This HTML document demonstrates the use of the <details> and <summary> tags to create expandable content sections.
+  
+  File: detailsAndSummary.html
+  Author: Anthony Bañon
+  Created: 2025-06-13
+  Last Updated: 2025-06-13
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details and Summary</title>
+    <style>
+      details {
+        margin: 1em 0;
+        font-family: sans-serif;
+      }
+
+      summary {
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      details[open] {
+        background-color: #f0f0f0;
+        padding: 0.5em;
+        border-left: 4px solid #007bff;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML5 Expandable Content Example</h1>
+
+    <!-- Basic collapsible container -->
+    <details>
+      <summary>What is HTML?</summary>
+      <p>
+        HTML stands for HyperText Markup Language. It is the standard language
+        used to create web pages.
+      </p>
+    </details>
+
+    <!-- Another example: FAQ style -->
+    <details>
+      <summary>What is the purpose of the &lt;details&gt; tag?</summary>
+      <p>
+        It allows you to create sections of content that users can toggle open
+        or closed, useful for FAQs, extra info, etc.
+      </p>
+    </details>
+
+    <!-- You can even nest details -->
+    <details>
+      <summary>More Resources</summary>
+      <ul>
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details"
+            target="_blank"
+            >MDN: &lt;details&gt;</a
+          >
+        </li>
+        <li>
+          <a href="https://html.spec.whatwg.org/" target="_blank"
+            >HTML Living Standard</a
+          >
+        </li>
+      </ul>
+    </details>
+  </body>
+</html>

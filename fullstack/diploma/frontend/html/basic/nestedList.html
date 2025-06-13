@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+  
+  This HTML document demonstrates the use of nested 
+  ordered and unordered lists with various list styles.
+  
+  File: nestedList.html
+  Author: Anthony Bañon
+  Created: 2025-06-06
+  Last Updated: 2025-06-06
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested List</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      main {
+        max-width: 800px;
+        margin: auto;
+      }
+      div {
+        margin-bottom: 20px;
+      }
+      ol {
+        margin: 20px 0;
+      }
+      ol li {
+        margin: 5px 0;
+      }
+      ul {
+        margin: 20px 0;
+      }
+      ul li {
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <ol style="list-style-type: lower-greek">
+        <li>
+          Frontend
+          <ol style="list-style-type: armenian">
+            <li>HTML</li>
+            <li>
+              CSS
+              <ul style="list-style-type: circle">
+                <li>Flexbox</li>
+                <li>Grid</li>
+              </ul>
+            </li>
+            <li>
+              JavaScript
+              <ul style="list-style-type: disc">
+                <li>React</li>
+                <li>Vue.js</li>
+                <li>Angular</li>
+              </ul>
+            </li>
+          </ol>
+        </li>
+        <hr />
+        <li>
+          Backend
+          <ul style="list-style-type: square">
+            <li>PHP</li>
+            <li>Node.js</li>
+          </ul>
+        </li>
+        <hr />
+        <li>
+          Database
+          <ol style="list-style-type: decimal-leading-zero">
+            <li>MySQL</li>
+            <li>MongoDB</li>
+          </ol>
+        </li>
+      </ol>
+    </main>
+  </body>
+</html>

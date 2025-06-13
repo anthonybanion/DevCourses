@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!--
+  
+  This HTML document demonstrates the use 
+  of various global HTML attributes.
+  
+  File: globalAttributes.html
+  Author: Anthony Bañon
+  Created: 2025-06-13
+  Last Updated: 2025-06-13
+-->
+
+<html lang="en" dir="ltr" translate="yes">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Global HTML Attributes Example</title>
+    <style>
+      .highlight {
+        background-color: yellow;
+      }
+      ::part(label) {
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- accesskey: Shortcut key (Alt + H or Cmd + H depending on OS) -->
+    <button accesskey="h" autofocus>Access Key Button (H)</button>
+
+    <!-- anchor: Non-standard, example use for positioned anchor (not supported in all browsers) -->
+    <div id="anchorTarget" style="position: relative"></div>
+    <div anchor="anchorTarget" style="position: absolute; top: 0">
+      Anchored Element
+    </div>
+
+    <!-- autocapitalize: Capitalize first letter of each word -->
+    <input
+      type="text"
+      autocapitalize="words"
+      placeholder="Name with capitalized words"
+    />
+
+    <!-- autocorrect: Turns on spelling correction -->
+    <input type="text" autocorrect="on" placeholder="Autocorrect test" />
+
+    <!-- class: Used to apply CSS class -->
+    <p class="highlight">This paragraph has a class</p>
+
+    <!-- contenteditable: Makes element editable -->
+    <div contenteditable="true">Editable content here</div>
+
+    <!-- data-*: Custom data attributes -->
+    <div data-user-id="12345" data-role="admin">
+      User with custom data attributes
+    </div>
+
+    <!-- dir: Text direction -->
+    <p dir="rtl">Este texto está escrito de derecha a izquierda</p>
+
+    <!-- draggable: Make element draggable -->
+    <div draggable="true" style="width: 100px; height: 100px; background: #ccc">
+      Drag me
+    </div>
+
+    <!-- enterkeyhint: Suggests what virtual keyboard action to show -->
+    <input type="text" enterkeyhint="go" placeholder="Enter URL" />
+
+    <!-- exportparts: Export part from shadow DOM (requires custom elements setup) -->
+    <custom-element exportparts="label"></custom-element>
+
+    <!-- hidden: Hides the element -->
+    <p hidden>This paragraph is hidden</p>
+
+    <!-- id: Unique identifier -->
+    <h1 id="main-title">Main Title with ID</h1>
+
+    <!-- inert: Prevents user interaction -->
+    <div inert>This content is inert (non-interactive)</div>
+
+    <!-- inputmode: Virtual keyboard suggestion -->
+    <input type="text" inputmode="numeric" placeholder="Enter numbers only" />
+
+    <!-- is: Used with custom elements -->
+    <button is="custom-button">Custom Button</button>
+
+    <!-- Microdata attributes (item*): Structured data -->
+    <div itemscope itemtype="https://schema.org/Person">
+      <span itemprop="name">Anthony</span>
+      <link itemprop="url" href="https://anthonybanion.dev" />
+    </div>
+
+    <!-- lang: Language of the content -->
+    <p lang="es">Este párrafo está en español</p>
+
+    <!-- nonce: Used for CSP (example only, real nonce should be server-generated) -->
+    <script nonce="xyz123">
+      console.log("Secure script");
+    </script>
+
+    <!-- part: Target part in shadow DOM -->
+    <div part="label">Part attribute example</div>
+
+    <!-- popover: Experimental - Toggle popover -->
+    <button popovertarget="infoPopover">Open Popover</button>
+    <div id="infoPopover" popover>This is a popover element</div>
+
+    <!-- role: Define semantic role for accessibility -->
+    <div role="alert">This is an alert message</div>
+
+    <!-- slot: Shadow DOM content projection -->
+    <template id="shadowTemplate">
+      <slot name="customSlot"></slot>
+    </template>
+    <div slot="customSlot">Slotted content</div>
+
+    <!-- spellcheck: Enables spell checking -->
+    <textarea spellcheck="true">Type here...</textarea>
+
+    <!-- style: Inline CSS styling -->
+    <p style="color: green; font-weight: bold">Styled with inline CSS</p>
+
+    <!-- tabindex: Tab order control -->
+    <input type="text" tabindex="1" placeholder="First field" />
+    <input type="text" tabindex="2" placeholder="Second field" />
+
+    <!-- title: Tooltip info -->
+    <abbr title="HyperText Markup Language">HTML</abbr>
+
+    <!-- translate: Allow translation -->
+    <p translate="yes">This should be translated</p>
+
+    <!-- virtualkeyboardpolicy: Controls virtual keyboard visibility -->
+    <input
+      type="text"
+      virtualkeyboardpolicy="auto"
+      placeholder="Type something"
+    />
+
+    <!-- writingsuggestions: Browser writing suggestions -->
+    <textarea
+      writingsuggestions="true"
+      placeholder="Suggestions enabled"
+    ></textarea>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+  
+  This HTML document demonstrates the use of various 
+  elements that have a transparent content model.
+  
+  File: transparentContent.html
+  Author: Anthony Bañon
+  Created: 2025-06-13
+  Last Updated: 2025-06-13
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Transparent Content Model Example</title>
+  </head>
+  <body>
+    <!-- <a>: Anchor element with href attribute -->
+    <!-- Can contain phrasing content (text, inline elements) -->
+    <p>
+      Visit our
+      <a
+        href="https://example.com"
+        title="Go to Example site"
+        target="_blank"
+        rel="noopener noreferrer"
+        >website</a
+      >
+      for more information.
+    </p>
+
+    <!-- <del>: Indicates deleted content. Attributes: cite, datetime -->
+    <!-- <ins>: Indicates inserted content. Attributes: cite, datetime -->
+    <p>
+      This product was
+      <del cite="https://history.example.com" datetime="2023-01-01">$50</del>
+      <ins cite="https://update.example.com" datetime="2024-01-01">$35</ins>
+      last month.
+    </p>
+
+    <!-- <mark>: Highlights text for reference -->
+    <p>Please <mark>This is very important</mark> when submitting your work.</p>
+
+    <!-- <abbr>: Abbreviation with title attribute explaining the full meaning -->
+    <p>
+      We use <abbr title="Cascading Style Sheets">CSS</abbr> for styling the
+      website.
+    </p>
+
+    <!-- <cite>: Citation or reference to a work -->
+    <p><cite>The Great Gatsby</cite> is a classic novel.</p>
+
+    <!-- <dfn>: Used to indicate a term being defined -->
+    <p>
+      <dfn title="A markup language for structuring web pages">HTML</dfn> is the
+      foundation of the web.
+    </p>
+
+    <!-- <code>: For inline code representation -->
+    <p>To print in Python, use the <code>print()</code> function.</p>
+
+    <!-- <kbd>: Represents keyboard input -->
+    <p>Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save your work.</p>
+
+    <!-- <samp>: Represents sample output from a program -->
+    <p>The system responded with: <samp>Error 404: Not Found</samp></p>
+
+    <!-- <var>: Represents a variable in a formula or code -->
+    <p>
+      The variable <var>x</var> represents the unknown value in the equation.
+    </p>
+
+    <!-- <time>: Represents a date or time. Attributes: datetime -->
+    <p>
+      The meeting is scheduled for
+      <time datetime="2025-06-10T14:00">June 10th at 2:00 PM</time>.
+    </p>
+
+    <!-- <bdi>: Isolates a piece of text to avoid bidirectional text issues -->
+    <p>Usernames: <bdi>مستخدم123</bdi> logged in successfully.</p>
+
+    <!-- <bdo>: Overrides the directionality of text. Attributes: dir -->
+    <p><bdo dir="rtl">This text is displayed from right to left.</bdo></p>
+  </body>
+</html>

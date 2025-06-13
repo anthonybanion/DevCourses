@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--
+
+  This HTML document provides an overview of different 
+  image formats and their characteristics.
+
+  File: images.html
+  Author: Anthony Bañon
+  Created: 2025-06-13
+  Last Updated: 2025-06-13
+-->
+
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="images.css" />
+    <title>Images</title>
+  </head>
+  <body>
+    <header>
+      <center>
+         <h1>Images</h1>
+      </center>
+    </header>
+    <main>
+      <div class="card">
+        <div class="card_image">
+          <img
+            src="../../assets/toucan.jpeg"
+            alt="Toucan"
+            width="200px"
+          />
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">JPEG (Joint Photographic Experts Group)</h2>
+          <p class="card_description">
+            <strong>Description:</strong></br>A lossy compression format commonly used for photographs and complex images with many colors.</br><strong>Ideal Usage:</strong></br>Photographs, realistic scenes, complex color gradients.</br>
+            <strong>Advantages:</strong></br>
+            <ul>
+              <li>Small file size due to lossy compression</li>
+              <li>Widely supported across all platforms and browsers</li>
+              <li>Good for high-resolution photographs</li>
+            </ul>
+             <strong>Disadvantages:</strong></br>
+            <ul>
+              <li>Lossy: image quality degrades with each save</li>
+              <li>No transparency support</li>
+              <li>Not ideal for sharp-edged graphics or text</li>
+            </ul>
+            <strong>Example Use Case:</strong></br>A product photo on an e-commerce website.
+          </p>
+        </div>
+      </div>  
+      <div class="card">
+        <div class="card_image">
+          <img
+            src="../../assets/rotatingEarth.gif"
+            alt="Rotating Earth"
+            width="200px"
+          />
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">GIF (Graphics Interchange Format)</h2>
+          <p class="card_description">
+            <strong>Description:</strong></br>A lossless format that supports simple animations and transparency with a limited color palette (256 colors).</br><strong>Ideal Usage:</strong></br>Short animations, simple graphics with few colors.</br>
+            <strong>Advantages:</strong></br>
+            <ul>
+              <li>Supports animation</li>
+              <li>Simple transparency</li>
+              <li>Lightweight for basic use</li>
+            </ul>
+             <strong>Disadvantages:</strong></br>
+            <ul>
+              <li>Limited to 256 colors</li>
+              <li>Not suitable for complex images or photos</li>
+              <li>Larger animated GIFs can be inefficient</li>
+            </ul>
+            <strong>Example Use Case:</strong></br>A reaction meme or icon with a short looped animation.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card_image">
+          <img
+            src="../../assets/transparentDice.png"
+            alt="Transparency Dice"
+            width="200px"
+          />
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">PNG (Portable Network Graphics)</h2>
+          <p class="card_description">
+            <strong>Description:</strong></br>A lossless compression format that supports transparency and is ideal for web graphics.</br><strong>Ideal Usage:</strong></br>Logos, icons, images with sharp edges or text, or where transparency is needed.</br>
+            <strong>Advantages:</strong></br>
+            <ul>
+              <li>Lossless compression</li>
+              <li>Full alpha transparency</li>
+              <li>Great image quality for graphics</li>
+            </ul>
+             <strong>Disadvantages:</strong></br>
+            <ul>
+              <li>Larger file size compared to JPEG for photos</li>
+              <li>Not ideal for animations (unless using APNG)</li>
+              <li>Not suitable for complex images or photos</li>
+            </ul>
+            <strong>Example Use Case:</strong></br>A company logo with transparent background.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card_image">
+          <img
+            src="../../assets/fox.avif"
+            alt="Fox"
+            width="200px"
+          />
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">AVIF (AV1 Image File Format)</h2>
+          <p class="card_description">
+            <strong>Description:</strong></br>A modern, compressed raster image format based on the AV1 video codec, designed for efficient web</br>delivery with high quality and small file size.</br><strong>Ideal Usage:</strong></br>Photographs, banners, background images, high-resolution images with transparency or animations.</br>
+            <strong>Advantages:</strong></br>
+            <ul>
+              <li>Superior compression compared to JPEG and PNG</li>
+              <li>Supports transparency (like PNG)</li>
+              <li>Supports HDR and animations</li>
+              <li>Smaller file sizes reduce bandwidth usage</li>
+              <li>Great for mobile and high-density displays</li>
+            </ul>
+             <strong>Disadvantages:</strong></br>
+            <ul>
+              <li>Limited support in older browsers (fallback may be needed)</li>
+              <li>Slower encoding and decoding than older formats</li>
+              <li>Not editable like vector formats</li>
+              <li>Requires conversion from other image formats (not native in most design tools)</li>
+            </ul>
+            <strong>Example Use Case:</strong></br>A high-resolution homepage banner image that loads quickly on mobile devices without sacrificing quality.
+          </p>
+        </div>
+      </div>
+        <div class="card">
+        <div class="card_image">
+          <img
+            src="../../assets/writing.svg"
+            alt="Writing"
+            width="200px"
+          />
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">SVG (Scalable Vector Graphics)</h2>
+          <p class="card_description">
+            <strong>Description:</strong></br>A vector-based image format defined in XML, perfect for responsive and resolution-independent graphics.</br><strong>Ideal Usage:</strong></br>Logos, icons, diagrams, charts, and illustrations.</br>
+            <strong>Advantages:</strong></br>
+            <ul>
+              <li>Scalable without quality loss</li>
+              <li>Editable with code or design tools</li>
+              <li>Small file size for simple images</li>
+              <li>Can be styled and animated with CSS/JS</li>
+            </ul>
+             <strong>Disadvantages:</strong></br>
+            <ul>
+              <li>Not ideal for detailed images or photographs</li>
+              <li>Security concerns when used inline (scripts inside SVGs)</li>
+              <li>Browser compatibility issues with older versions</li>
+            </ul>
+            <strong>Example Use Case:</strong></br>A responsive website logo that scales on different screen sizes.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

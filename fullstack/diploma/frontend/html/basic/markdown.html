@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+  
+  This HTML file demonstrates how to use the Marked.js 
+  library to convert Markdown text into HTML.
+  
+  File: marked.html
+  Author: Anthony Bañon
+  Created: 2025-06-06
+  Last Updated: 2025-06-06
+-->
+
+<html>
+  <head>
+    <title>Markdown en HTML</title>
+    <!-- Incluye la biblioteca Marked.js desde un CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <h2>Markdown renderizado:</h2>
+    <div id="markdown-content"></div>
+
+    <script>
+      const markdown = `
+  # Título H1
+  **Texto en negrita**
+  - Lista
+  - De
+  - Elementos
+    \`\`\`javascript
+    function helloWorld() {
+        console.log("Hello, World!");
+    }
+    \`\`\`
+    [Enlace a Google](https://www.google.com)
+  `;
+
+      document.getElementById("markdown-content").innerHTML =
+        marked.parse(markdown);
+    </script>
+  </body>
+</html>

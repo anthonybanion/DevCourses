@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+  
+  This HTML document demonstrates how to create external links, 
+  embed external content, and use various HTML elements 
+  to link to external resources. It includes examples of 
+  links to websites, email addresses, phone numbers, 
+  images, iframes, videos, and audio files.
+  
+  File: externalLink.html
+  Author: Anthony Bañon
+  Created: 2025-06-13
+  Last Updated: 2025-06-13
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>External link</title>
+
+    <!-- Example of linking an external stylesheet -->
+    <link rel="stylesheet" href="https://example.com/styles.css" />
+  </head>
+  <body>
+    <h1>External link</h1>
+    <p>This is an example of an external link:</p>
+
+    <!-- Opens Google in a new browser tab -->
+    <a href="https://www.google.com" target="_blank">Visit Google.com</a>
+
+    <p>You can reach Michael at:</p>
+    <ul>
+      <!-- External website link -->
+      <li><a href="https://example.com">Website</a></li>
+
+      <!-- Email link using mailto: -->
+      <li>
+        <a href="mailto:caterva17@gmail.com">Email caterva17@gmail.com</a>
+      </li>
+
+      <!-- Phone link using tel: -->
+      <li><a href="tel:+1133611880">Phone: 1133611880</a></li>
+    </ul>
+
+    <!-- Image link to external site, clicking the image opens MDN in new tab -->
+    <p>Image link to external site</p>
+    <a href="https://developer.mozilla.org/en-US/" target="_blank">
+      <img src="../../assets/fox.avif" alt="MDN logo" width="100px" />
+    </a>
+
+    <!-- Example of embedding an external website -->
+    <p>Embedding an external website:</p>
+    <iframe src="https://www.wikipedia.org" width="300" height="200"></iframe>
+
+    <!-- Example of embedding a video from an external URL -->
+    <p>Embedding a video from an external URL:</p>
+    <video controls width="300">
+      <source
+        src="https://www.w3schools.com/html/mov_bbb.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Example of embedding audio from an external source -->
+    <p>Embedding audio from an external source:</p>
+    <audio controls>
+      <source
+        src="https://www.w3schools.com/html/horse.mp3"
+        type="audio/mpeg"
+      />
+      Your browser does not support the audio element.
+    </audio>
+  </body>
+</html>
