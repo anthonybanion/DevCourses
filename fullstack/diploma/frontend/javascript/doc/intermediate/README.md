@@ -111,3 +111,7 @@ A L O H
 
 - If one player quits, the computer selects a word
 - Use random generation or a predefined word list for the computer
+
+---
+
+🔙 [Back to Diploma README](../../../../README.md)

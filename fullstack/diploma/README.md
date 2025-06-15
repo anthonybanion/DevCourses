@@ -71,50 +71,24 @@ Each week of the diploma will be tracked via a GitLab **issue**, including:
 
 ```text
 diploma/
-├── frontend/                   # Frontend code
-│   ├── html/                   # HTML exercises
-│   │   ├── basic/              # Exercises basic HTML
-│   │   ├── intermediate/       # Exercises intermediate HTML
-│   │   └── advanced/           # Exercises advanced HTML
-│   ├── javascript/
-│   │   ├── basics/             # Exercises basic JavaScript
-│   │   ├── intermediate/       # Exercises intermediate JavaScript
-│   │   └── advanced/           # Exercises advanced JavaScript
-│   └── react/
-│       ├── public/                   # Public assets
-│       ├── src/
-│       │     ├── components/
-│       │     ├── hooks/
-│       │     ├── contexts/
-│       │     ├── assets/
-│       │     ├── styles/
-│       │     └── utils/
-│       ├── package.json
-│       ├── README.md
-│       └── vite.config.js
-├── backend/
-│   ├── nodejs/
-│   ├── express/
-│   ├── mongodb/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middlewares/
-│   ├── tests/
-│   ├── package.json
-│   └── README.md
-├── ux_design/                 # UX/UI design projects
-│   ├── figma/                 # Figma designs
-│   ├── adobe_xd/              # Adobe XD designs
-│   └── wireframes/            # Wireframes and mockups
-├── docs/                     # Documentation
-│   ├── syllabus.md            # Course syllabus
-│   ├── weekly_issues/         # Weekly issues and progress
-│   └── resources/             # Additional resources
+├── frontend/      # Frontend development projects (HTML, CSS, JavaScript, React)
+├── backend/       # Backend development projects (Node.js, Express, MongoDB)
+├── ux_design/     # UX/UI design projects
+├── docs/          # Documentation and resources
 ├── .gitignore
-├── README.md                  # Project overview
-└── LICENSE                    # License information
+├── README.md      # Index and overview
+└── LICENSE
+
 ```
+
+---
+
+## 📂 Subfolders
+
+- [Frontend](./frontend/README.md)
+- [Backend](./backend/README.md)
+
+---
 
 ## 🧪 Technologies Used
 
