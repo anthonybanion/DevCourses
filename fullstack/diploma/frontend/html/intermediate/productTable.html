@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+  
+  This HTML file contains a complete example of a product information 
+  table with various features such as row spanning, form elements, 
+  and a footer for totals.
+  
+  File: productTable.html
+  Author: Anthony Bañon
+  Created: 2025-06-17
+  Last Updated: 2025-06-17
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full HTML Table Example</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid #000;
+        text-align: left;
+      }
+      caption {
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+      }
+      tfoot {
+        background-color: #f0f0f0;
+      }
+      input,
+      select,
+      textarea {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Complete HTML Table Example</h1>
+      <table>
+        <caption>
+          Product Information Table
+        </caption>
+        <colgroup>
+          <col span="1" style="background-color: #f9f9f9" />
+          <col span="1" style="background-color: #fff" />
+          <col span="1" />
+          <col span="1" />
+          <col span="1" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Product</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">1</td>
+            <td>Product A</td>
+            <td>This is a long description for Product A.</td>
+            <td>$10.00</td>
+            <td>
+              <button>Edit</button>
+              <button>Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              <strong>Extra Info:</strong> Includes warranty, free shipping.
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Product B</td>
+            <td>This is Product B.</td>
+            <td>$20.00</td>
+            <td>
+              <form>
+                <button type="submit">Buy</button>
+                <button type="button" onclick="alert('Info')">Info</button>
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Product C</td>
+            <td>
+              <textarea rows="2" placeholder="Add notes..."></textarea>
+            </td>
+            <td>
+              <input type="number" value="30" />
+            </td>
+            <td>
+              <select>
+                <option>Available</option>
+                <option>Out of Stock</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td colspan="2">Bundle Pack</td>
+            <td>$50.00</td>
+            <td><input type="checkbox" checked /> Select</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Empty Row</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3"><strong>Total</strong></td>
+            <td colspan="2">$110.00</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+  </body>
+</html>
