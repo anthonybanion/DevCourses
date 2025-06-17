@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-family: "Raleway", sans-serif;
+    width: 1440px;
+    height: 5020px;
+    background-color: #E0EDF3;
+}
+
+header{
+    width: 1440px;
+    height: 520px;
+
+}
+
+.header__navigation{
+    width: 1136px;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+ 
+}
+
+.header__nav-list{
+    display: flex;
+    gap: 32px;
+}
+
+.header__presentation{
+    display: flex;
+    justify-content: space-between;
+    width: 1136px;
+    height: 368px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+}
+
+.header__personal-information{
+    display: flex;
+    flex-direction: column;
+    height: 246px;
+    width: 751px;
+    margin-top: 61px;
+    margin-bottom: 61px;
+}
+
+.header__title-container{
+    width: 751px;
+    height: 122px;
+    margin-bottom: 24px;
+}
+
+.header__title{
+    font-weight:800;
+    font-size: 52px;
+
+}
+
+.header__description-container{
+    width: 751px;
+    height: 52px;
+    margin-bottom: 24px;
+}
+
+.header__description{
+    font-size: 22px;
+}
+
+.header__social-list{
+    display: flex;
+    width: 467px;
+    height: 24px;
+    gap: 32px;
+}
+
+.header__social-link{
+    font-size: 24px;
+}
+
+.header__image-container{
+    width: 368px;
+    height: 368px;
+    position: relative;
+
+}
+
+.header__image{
+    border-radius: 50%;
+    width: 368px;
+    height: 368px;
+}
+
+.about{
+    height: 383px;
+    width: 100%;
+    background-color: #0EF0F0;
+}
+
+.about__container{
+    height: 255px;
+    width: 1136px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 64px;
+}
+
+.about__title-container{
+    height: 38px;
+    margin-bottom: 16px;
+}
+
+.about__title{
+    font-size: 32px;
+    
+}
+
+.about__description-container{
+    height: 133px;
+    width: 751px;
+    margin-bottom: 16px;
+}
+
+.about__signature-container{
+    height: 52px;
+    width: 140;
+}
+
+.about__signature{
+    height: 52px;
+    width: 140;
+}
+
+.main{
+    width: 1440px;
+    height: 1245px;
+ 
+}
