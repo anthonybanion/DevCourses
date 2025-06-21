@@ -12,35 +12,35 @@ This exercise guide is designed to help beginners develop logical thinking and b
 
 ---
 
-1.  **Greeting with alert()**
+1.  ~~**Greeting with alert()**~~
 
     Ask the user for their name and display a greeting using alert().
 
-2.  **Sum of two numbers**
+2.  ~~**Sum of two numbers**~~
 
     Ask the user for two numbers and display their sum.
 
-3.  **Multiplication of two numbers**
+3.  ~~**Multiplication of two numbers**~~
 
     Ask for two numbers and show their product.
 
-4.  **Subtraction of two numbers**
+4.  ~~**Subtraction of two numbers**~~
 
     Ask for two numbers and display their difference.
 
-5.  **Division of two numbers**
+5.  ~~**Division of two numbers**~~
 
     Ask for two numbers and display the result of the division.
 
-6.  **Division remainder**
+6.  ~~**Division remainder**~~
 
     Ask for two numbers and show the remainder (modulo) of the division.
 
-7.  **Even or odd**
+7.  ~~**Even or odd**~~
 
     Ask for a number and display whether it is even or odd.
 
-8.  **Full name**
+8.  ~~**Full name**~~
 
     Ask separately for first name and last name, then display: LastName, FirstName.
 

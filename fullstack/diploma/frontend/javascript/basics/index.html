@@ -6,13 +6,13 @@
     <title>Index</title>
 </head>
 <body>
-    <form action="">
-        <input type="text" id="username" placeholder="Enter your name">
-        <button onclick="sayHello()">Submit</button>
-    </form>
-    <div id="greeting">
-        <p id="greetingMessage"></p>
-    </div>
-    <script src="calculator.js"></script>
+    <main>
+        <form class ="form" method="POST" action="./fullName.js">
+            <input class="form__input" type="text" placeholder="Enter your first name: ">
+            <input class="form__input" type="number" placeholder="When you are old: ">
+            <button class="form__button" type="submit">Submit</button>
+        </form>
+    </main>
+    <script src="./nameAndAge.js"></script>
 </body>
 </html>
