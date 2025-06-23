@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="area.css">
+    <title>Calculate The Perimete</title>
+</head>
+
+<body>
+    <nav class="topbar">
+        <li class="topbar__item"><a href="area.html">Area</a></li>
+        <li class="topbar__item"><a href="perimete.html">Perimete</a></li>
+    </nav>
+    <header class="header">
+        <h1 class="header__tite">calculate the perimete of ​​a geometric figure</h1>
+        <p class="header__description">Use this tool to calculate the perimete of ​​geometric figures.</p>
+    </header>
+  
+    <main>
+        <section class="tool" id="tool-conteiner">
+            <h2 class="tool__title">choose a geometric figure</h2>
+            <ul class="list">
+                <li class="list__item"><button class="list__button" onclick="selectFigure('circle')"><img
+                            class="list__icom" src="https://cdn-icons-png.flaticon.com/128/5886/5886792.png"
+                            alt="Circle"></button></li>
+                <li class="list__item"><button class="list__button" onclick="selectFigure('square')"><img
+                            class="list__icom" src="https://cdn-icons-png.flaticon.com/128/5887/5887066.png"
+                            alt="Square"></button></li>
+                <li class="list__item"><button class="list__button" onclick="selectFigure('triangle')"><img
+                            class="list__icom" src="https://cdn-icons-png.flaticon.com/128/5887/5887088.png"
+                            alt="Triangle"></button></li>
+            </ul>
+        </section>
+    </main>
+    <script src="perimete.js"></script>
+</body>
+
+</html>

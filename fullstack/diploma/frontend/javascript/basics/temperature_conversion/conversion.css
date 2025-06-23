@@ -1,0 +1,17 @@
+.header__logo{
+    width: 4rem;
+}
+
+.conversion{
+    width: 80%;
+    margin: auto;
+}
+.list{
+    display:flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.list__item{
+    direction: none;
+}

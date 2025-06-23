@@ -1,15 +1,28 @@
-let age = Document.querySelector("form");
+// ==========================================
+// 
+// This JavaScript code listens for a form submission, 
+// retrieves the user's name and age from the input fields, 
+// and displays an alert with a greeting message. 
+// If either field is empty, it prompts the user to fill in both fields.
+//
+// File: nameAndAge.js
+// Author: Anthony Bañon
+// Created: 2025-06-21
+// Last Updated: 2025-06-21
+// ==========================================
 
-age.addEventListener("submit", function(event) {
+
+let form = document.querySelector("form");
+ 
+form.addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent the form from submitting
-
-    let name = document.querySelector("#name").value;
-    let age = document.querySelector("#age").value;
-
+    const name = event.target[0].value;
+    const age = event.target[1].value;
+    console.log("aca");
     if (name && age) {
         alert(`Hello ${name}, you are ${age} years old!`);
+        console.log("aca");
     } else {
         alert("Please enter both your name and age.");
     }
-}
-);
+});

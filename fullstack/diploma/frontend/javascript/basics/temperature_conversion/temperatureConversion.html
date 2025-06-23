@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="conversion.css">
+    <title>Temperature conversion</title>
+</head>
+
+<body>
+    <center>
+    <header class="header">
+        <h1 class="header__title">Temperature conversion <img class="header__logo"
+                src="https://cdn-icons-png.flaticon.com/128/1959/1959311.png" alt="logo"></h1>
+        <p class="header__description">
+            Use this tool to convert temperatures between Celsius, Fahrenheit, and Kelvin. Simply select the source and
+            target units, input a value, and get the converted temperature.
+        </p>
+    </header>
+    </center>
+    <main>
+        <center>
+        <section class="conversion" id="conversion-conteiner">
+            <h2 class="conversion__title">Select the source unit</h2>
+            <ul class="list">
+                <li class="list__item">
+                    <button onclick="selectUnit('celsius')" class="list__button">
+                        <img class="list__icon" src="https://cdn-icons-png.flaticon.com/128/12284/12284483.png"
+                            alt="Celsius">
+                    </button>
+                </li>
+                <li class="list__item">
+                    <button onclick="selectUnit('fahrenheit')" class="list__button">
+                        <img class="list__icon" src="https://cdn-icons-png.flaticon.com/128/5276/5276701.png"
+                            alt="Fahrenheit">
+                    </button>
+                </li>
+                <li class="list__item">
+                    <button onclick="selectUnit('kelvin')" class="list__button">
+                        <img class="list__icon" src="https://cdn-icons-png.flaticon.com/128/16751/16751039.png"
+                            alt="Kelvin">
+                    </button>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+    </center>
+    <script src="conversion.js"></script>
+</body>
+
+</html>
