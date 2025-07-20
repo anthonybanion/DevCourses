@@ -12,72 +12,72 @@ This exercise guide is designed to help beginners develop logical thinking and b
 
 ---
 
-1.  **Greeting with alert()**
+1.  ~~**Greeting with alert()**~~
 
     Ask the user for their name and display a greeting using alert().
 
-2.  **Sum of two numbers**
+2.  ~~**Sum of two numbers**~~
 
     Ask the user for two numbers and display their sum.
 
-3.  **Multiplication of two numbers**
+3.  ~~**Multiplication of two numbers**~~
 
     Ask for two numbers and show their product.
 
-4.  **Subtraction of two numbers**
+4.  ~~**Subtraction of two numbers**~~
 
     Ask for two numbers and display their difference.
 
-5.  **Division of two numbers**
+5.  ~~**Division of two numbers**~~
 
     Ask for two numbers and display the result of the division.
 
-6.  **Division remainder**
+6.  ~~**Division remainder**~~
 
     Ask for two numbers and show the remainder (modulo) of the division.
 
-7.  **Even or odd**
+7.  ~~**Even or odd**~~
 
     Ask for a number and display whether it is even or odd.
 
-8.  **Full name**
+8.  ~~**Full name**~~
 
     Ask separately for first name and last name, then display: LastName, FirstName.
 
-9.  **Phrase with name and age**
+9.  ~~**Phrase with name and age**~~
 
     Ask for the user’s name and age, then display a phrase like: John is 25 years old.
 
-10. **Convert meters to centimeters**
+10. ~~**Convert meters to centimeters**~~
 
     Ask for a length in meters and convert it to centimeters.
     (1 meter = 100 cm)
 
-11. **Temperature conversion**
+11. ~~**Temperature conversion**~~
 
     Ask for a temperature in Celsius and convert it to Fahrenheit.
     (Formula: (C \* 9 / 5) + 32)
 
-12. **Average of three numbers**
+12. ~~**Average of three numbers**
 
     Ask for three numbers and calculate their average.
 
-13. **Age in days**
+13. ~~**Age in days**~~
 
     Ask for age in years and calculate the number of days lived.
     (Assuming 365 days per year)
 
-14. **Area of a triangle**
+14. ~~**Area of a triangle**~~
 
     Ask for the base and height of a triangle and calculate its area.
     (Formula: (base \* height) / 2)
 
-15. **Perimeter of a square**
+15. ~~**Perimeter of a square**~~
 
     Ask for the side length of a square and calculate its perimeter.
     (Formula: side \* 4)
 
-16. **Convert hours to minutes and seconds**
+16. ~~**Convert hours to minutes and seconds**~~
 
     Ask for a number of hours and convert it to minutes and seconds.
 
