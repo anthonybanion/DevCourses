@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        .field{
+            width: 40rem;
+            height: 5rem;
+        }
+        .result{
+            height: 5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+    <header class="header">
+        <h1 class="header__title">Unit Converter</h1>
+    </header>
+    <main>
+        <section>
+            <form class="form">
+                <fieldset class="field">
+                    <legend>Convert meters to centimeters</legend>
+                    <label for="meters">Meters</label>
+                    <input class="form__input" name="meters" id="meters" type="number" placeholder="Enter measurements in meters: ">
+                    <button class="form__button" type="button" onclick="metersToCentimeters()">Submit</button>
+                </fieldset>
+            </form>
+            <div class="result">
+                <h2 class="result__title">Result:</h2>
+                <p class="result__text" id="result__centimeters"></p>
+            </div>
+
+        </section>
+        <section>
+            <form class="form">
+                <fieldset class="field">
+                    <legend>Convert centimeters to meters</legend>
+                    <label class="form__label" for="centimeters">Centimeters</label>
+                    <input class="form__input" name="centimeters" id="centimeters" type="number"
+                        placeholder="Enter measurements in centimeters: ">
+                    <button class="form__button" type="button" onclick="centimetersToMeters()">Submit</button>
+                </fieldset>
+            </form>
+            <div class="result">
+                <h2 class="result__title">Result:</h2>
+                <p class="result__text" id="result__meters"></p>
+            </div>
+
+        </section>
+            
+
+    </main>
+    </center>
+    <script src="./metersAndCentimeters.js"></script>
+</body>
+
+</html>

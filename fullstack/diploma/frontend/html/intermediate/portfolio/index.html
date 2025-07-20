@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/globalStyle.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/4f29645879.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header" role="banner">
+        <section class="header__topbar">
+            <div class="logo">
+                <a href="#about" class="logo__link">
+                    <img class="logo__image" src="img/logo_gris.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="header__navigation-bar">
+                <ul class="header__navigation-list">
+                    <li class="header__navigation-item"><a href="#about" class="header__navigation-link">About me</a></li>
+                    <li class="header__navigation-item"><a href="#skills" class="header__navigation-link">Skill</a></li>
+                    <li class="header__navigation-item"><a href="#hobbies" class="header__navigation-link">Hobbies</a></li>
+                    <li class="header__navigation-item"><a href="#formation" class="header__navigation-link">Formation</a></li>
+                    <li class="header__navigation-item"><a href="#projects" class="header__navigation-link">Projects</a></li>
+                    <li class="header__navigation-item"><a href="#contact" class="header__navigation-link">Contact</a></li>
+                </ul>            
+            </nav> 
+            <div class="header__contact">
+                <span class="header__email">anthonybanion@gmail.com</span>
+            </div>
+        </section>
+    </header>
+    <main class="main" role="main">
+        <section class="presentation">
+            <div class="presentation__information">
+                <h1 class="presentation__title">Hello, my name is Anthony, I am a System Analyst</h1>
+                <p class="presentation__description">I am a Systems Analysis student specializing in backend development and database design </p>
+                <nav class="social-networks">
+                    <ul class="social-networks__list">
+                        <li class="social-networks__item"><a class="social-networks__link" href="https://github.com/anthonybanion"><i class="fa-brands fa-github"></i></a></li>
+                        <li class="social-networks__item"><a class="social-networks__link" href="https://www.linkedin.com/in/anthonybanion/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li class="social-networks__item"><a class="social-networks__link" href="https://www.instagram.com/anthonybanion/"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="social-networks__item"><a class="social-networks__link" href="https://twitter.com/anthonybanion"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="presentation__image">
+                <img class="image" src="img/anthony.jpg" alt="Anthony Bañon">
+            </div>
+                
+    </section>
+    <section class="about">
+        <div class="about__container">
+            <h2 class="about__title">About me</h2>
+            <p class="about__description">My education began at Alura-Latam, where I gained foundational knowledge in web development and database design. I also participated in professional simulations at No-Country, where I applied my skills in a collaborative, real-world environment.<br><br>Currently, I am pursuing a Bachelor’s in Computer Science at Uopleople University and studying Systems Analysis at the Instituto de Formación Técnica Número 12. These studies are providing me with a solid technical foundation and encouraging me to deepen my skills in analyzing and solving complex challenges in technology.</p>
+            <div class="about__signature-container">
+                <img class="about__signature" src="img/firma.png" alt="firma" height="100">
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <h2 class="skills__title">Skill</h2>
+        <ul class="skills__list">
+            <li class="skills__item"><i class="skills__icon fa-brands fa-python"></i>python</li>
+            <li class="skills__item"><i class="skills__icon fa-brands fa-php "></i>php</li>
+            <li class="skills__item"><i class="skills__icon fa-brands fa-symfony"></i>symfony</li>
+            <li class="skills__item"><i class="skills__icon fa-brands fa-laravel"></i>laravel</li>
+            <li class="skills__item"><i class="skills__icon fa-brands fa-java"></i>java</li>
+            <li class="skills__item"><i class="skills__icon fa-brands fa-js"></i>javascript</li>
+            <li class="skills__item"><i class="skills__icon fa-brands fa-html5"></i>html</li>
+            <li class="skills__item"><i class="skills__icon fa-brands fa-css3-alt"></i>css</li>
+        </ul>    
+    </section>
+    
+    <section class="hobbies">
+        <h2 class="hobbies__title">Hobbies</h2>
+        <ul class="hobbies__list">
+            <li class="hobbies__item"><i class="hobbies__icon fa-solid fa-bicycle "></i> Cycling</li>
+            <li class="hobbies__item"><i class="hobbies__icon fa-solid fa-guitar "></i> Playing Guitar</li>
+            <li class="hobbies__item"><i class="hobbies__icon fa-regular fa-futbol "></i> Football</li>
+            <li class="hobbies__item"><i class="hobbies__icon fa-solid fa-person-running "></i> Running</li>
+            <li class="hobbies__item"><i class="hobbies__icon fa-solid fa-laptop "></i> Programming</li>
+        </ul>
+    </section>
+    <!-- <section class="formation">
+        <h2 class="formation__title">Formation</h2>
+    </section>
+    <section class="projects">
+        <h2 class="projects__title">Projects</h2>
+    </section> -->
+    <section class="contact">
+        <h2 class="contact__title">Contact</h2>
+        <p class="contact__description">Do you want to contact me?</p>
+        <p class="contact__instruction">Please fill out the form below, and I will contact you as soon as possible</p>
+        <form class="contact__form" action="">
+            <input type="text" class="contact__input" placeholder="Name">
+            <input type="email" class="contact__input" placeholder="Email">
+            <input type="text" class="contact__input" placeholder="Affair">
+            <textarea class="contact__textarea" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit" class="contact__button" value="Send message">
+        </form>
+    </section>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <p class="footer__text">Anthony Bañon</p>
+    </footer>
+    
+</body>
+</html>
