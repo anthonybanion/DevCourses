@@ -1,4 +1,4 @@
-# 🧠 JavaScript Programming Exercises Guide
+# 🧠 JavaScript Exercises Guide
 
 Welcome to this practical guide designed for those who are taking their first steps in programming using JavaScript as their base language.
 
@@ -18,3 +18,7 @@ Welcome to this practical guide designed for those who are taking their first st
 - [Advanced Level Exercises](./doc/advanced/README.md)
 
 Ready to get started? 🚀
+
+---
+
+🔙 [Back to Frontend README](../README.md)

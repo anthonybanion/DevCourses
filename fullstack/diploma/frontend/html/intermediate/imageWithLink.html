@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+  
+  This HTML file demonstrates various clickable elements 
+  that can be linked to external URLs.
+  
+  File: imageWithLink.html
+  Author: Anthony Bañon
+  Created: 2025-06-17
+  Last Updated: 2025-06-17
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Linkable Elements</title>
+    <style>
+      .box {
+        border: 1px solid #ccc;
+        padding: 10px;
+        display: inline-block;
+        margin: 10px;
+      }
+      .icon {
+        font-size: 30px;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Clickable Elements with Links</h1>
+
+      <!-- Link wrapping text -->
+      <p>
+        <a href="https://example.com" target="_blank"
+          >Click here to visit Example.com</a
+        >
+      </p>
+
+      <!-- Link wrapping an image -->
+      <a href="https://example.com" target="_blank">
+        <img src="../../assets/toucan.jpeg" alt="Placeholder" />
+      </a>
+
+      <!-- Link wrapping a video -->
+      <a href="https://example.com/video" target="_blank">
+        <video width="200" controls muted>
+          <source
+            src="https://www.w3schools.com/html/mov_bbb.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support HTML5 video.
+        </video>
+      </a>
+
+      <!-- Link wrapping a div -->
+      <a href="https://example.com/div" target="_blank">
+        <div class="box">
+          <strong>This whole box is clickable!</strong>
+          <p>Includes title and paragraph.</p>
+        </div>
+      </a>
+
+      <!-- Link wrapping a span (styled text) -->
+      <p>
+        Go to the
+        <a href="https://example.com/span" target="_blank"
+          ><span style="color: red">special page</span></a
+        >.
+      </p>
+
+      <!-- Link wrapping an icon (emoji for simplicity) -->
+      <a
+        href="https://example.com/icon"
+        target="_blank"
+        title="Go to icon page"
+      >
+        <span class="icon">🔗</span>
+      </a>
+
+      <!-- Link as a styled button (not actual button element) -->
+      <a
+        href="https://example.com/button"
+        target="_blank"
+        style="
+          display: inline-block;
+          background-color: blue;
+          color: white;
+          padding: 10px 20px;
+          text-decoration: none;
+          border-radius: 5px;
+        "
+      >
+        Visit as Button
+      </a>
+
+      <!-- Real button triggering a link with JS -->
+      <p>
+        <button
+          onclick="window.open('https://example.com/js-button', '_blank')"
+        >
+          JS Button Link
+        </button>
+      </p>
+    </main>
+  </body>
+</html>

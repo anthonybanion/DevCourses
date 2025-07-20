@@ -1,4 +1,4 @@
-# 🎮 HTML Levels: Rank Up!
+# 🎮 HTML Exercises Guide
 
 Welcome to this repository, where you'll find a series of practical HTML exercises designed to reinforce the concepts learned in class. The exercises are organized by difficulty levels, each with its own instructions and solution, so you can practice and improve your web development skills.
 
@@ -17,10 +17,10 @@ Welcome to this repository, where you'll find a series of practical HTML exercis
 
 ## 🟡 Level 2: Intermediate Exercises
 
-11. **Simple form:** Create a registration form with the following fields: first name, last name, email, birth date, phone number, city, country (at least 5 options), and a submit button.
-12. **Product table:** Create a table displaying at least 3 products with the following data: product name, price, quantity, description, country of manufacture.
-13. **Nested list:** Create a list of dishes and a nested sublist with the ingredients for each dish.
-14. **Image with link:** Make an image clickable so it leads to another website.
+11. ~~**Simple form:**~~ Create a registration form with the following fields: first name, last name, email, birth date, phone number, city, country (at least 5 options), and a submit button.
+12. ~~**Product table:**~~ Create a table displaying at least 3 products with the following data: product name, price, quantity, description, country of manufacture.
+13. ~~**Nested list:**~~ Create a list of dishes and a nested sublist with the ingredients for each dish.
+14. ~~**Image with link:**~~ Make an image clickable so it leads to another website.
 15. **About Me page:** Create a mini bio with a title, subtitle, image, and some text.
 16. **Internal links:** Create a page with different headings and paragraphs organized into sections (about any topic). At the top, add an index section with a tags that link to each corresponding section.
 
@@ -92,3 +92,7 @@ Create a website made up of several HTML pages linked to each other. The site sh
 - Each page must have a consistent layout with a header including the site's title and a nav with links to all subpages.
 - Add a footer on each page with copyright information.
 - Use semantic tags like \<header>, \<nav>, \<main>, \<section>, and \<footer> to structure the content.
+
+---
+
+🔙 [Back to Frontend README](../README.md)

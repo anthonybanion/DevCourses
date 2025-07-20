@@ -398,3 +398,7 @@ Every exercise has **clear requirements**, often with **multiple constraints**, 
 These final 30 exercises push you into the most advanced tiers of JavaScript development — architecture, performance, systems design, compilers, simulation, and tooling. Mastering them equips you to handle nearly any problem you may encounter as a senior JavaScript developer or technical lead.
 
 Happy hacking! ⚙️🧠
+
+---
+
+🔙 [Back to Diploma README](../../../../README.md)

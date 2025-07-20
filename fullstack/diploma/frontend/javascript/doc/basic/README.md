@@ -199,3 +199,7 @@ This exercise guide is designed to help beginners develop logical thinking and b
 40. **Convert strings to numbers**
 
     Ask the user for a value using prompt() and make sure it's a number before performing any operation.
+
+---
+
+🔙 [Back to Diploma README](../../../../README.md)
