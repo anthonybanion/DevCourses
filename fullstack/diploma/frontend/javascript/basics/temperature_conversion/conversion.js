@@ -1,3 +1,15 @@
+// ==========================================
+// 
+// This JavaScript file handles temperature 
+// conversion between Celsius, Fahrenheit, and Kelvin.
+//
+// File: conversion.js
+// Author: Anthony Bañon
+// Created: 2025-07-20
+// Last Updated: 2025-07-20
+// ==========================================
+
+
 function selectUnit(unit){
     console.log(unit);
     const conversion = document.getElementById("conversion-conteiner");
@@ -60,9 +72,9 @@ function calculateTemperature(unit, outputUnit) {
   let result;
 
   if (unit === outputUnit) {
-    result = value; // misma unidad, no se convierte
+    result = value; // same unit, no conversion needed
   } else {
-    // Convertir primero a Celsius si es necesario
+    // Convert to Celsius
     let tempInCelsius;
     switch (unit) {
       case "celsius":
@@ -76,7 +88,7 @@ function calculateTemperature(unit, outputUnit) {
         break;
     }
 
-    // Convertir de Celsius a unidad de salida
+    // Convert from Celsius to output unit
     switch (outputUnit) {
       case "celsius":
         result = tempInCelsius;
@@ -90,7 +102,7 @@ function calculateTemperature(unit, outputUnit) {
     }
   }
 
-  // Mostrar el resultado
+  // Show the result
   const output = document.createElement("p");
   output.textContent = `Converted temperature: ${result.toFixed(2)} ${outputUnit}`;
   document.getElementById("conversion-conteiner").appendChild(output);
