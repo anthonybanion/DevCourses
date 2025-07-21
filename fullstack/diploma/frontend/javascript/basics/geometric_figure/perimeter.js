@@ -43,35 +43,35 @@ function addButton(container, figure) {
     button.onclick = () => {
         const inputs = container.querySelectorAll('.input__item');
         const values = Array.from(inputs).map(input => parseFloat(input.value));
-        calculatePerimete(figure, values);
+        calculatePerimeter(figure, values);
     };
     container.appendChild(button);
 }
 
-function calculatePerimete(figure, values) {
-    let perimete = 0;
+function calculatePerimeter(figure, values) {
+    let perimeter = 0;
 
     switch (figure) {
         case 'circle':
-            if (values.length === 1) perimete = Math.PI * values[0];
+            if (values.length === 1) perimeter = 2 * Math.PI * values[0];
             break;
         case 'square':
-            if (values.length === 2) perimete = (values[0] + values[1])*2;
+            if (values.length === 2) perimeter = (values[0] + values[1])*2;
             break;
         case 'triangle':
-            if (values.length === 3) perimete = values[0] + values[1] + values[2] ;
+            if (values.length === 3) perimeter = values[0] + values[1] + values[2] ;
             break;
         default:
             console.warn('Unknown figure');
             return;
     }
 
-    console.log(`Area of ${figure}: ${perimete.toFixed(2)}`);
-    showArea(perimete.toFixed(2), tool);
+    console.log(`Area of ${figure}: ${perimeter.toFixed(2)}`);
+    showArea(perimeter.toFixed(2), tool);
 }
 
-function showArea(perimete, container){
+function showArea(perimeter, container){
     const p = document.createElement('p');
-    p.innerHTML = `The perimete is: ${perimete} m`;
+    p.innerHTML = `The perimeter is: ${perimeter} m`;
     container.appendChild(p);
 }

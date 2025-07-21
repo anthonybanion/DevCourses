@@ -1,0 +1,119 @@
+
+body{
+  font-family: sans-serif;
+  font-weight: 300;
+  background-color:#002b36;
+  align-content: center;
+}
+
+
+/* CONTENEDOR PRINCIPAL */
+.comment {
+	max-width: 600px;
+	margin: 50px auto;
+	background-color: rgba(0, 10, 40, 0.7); /* Fondo oscuro azulado con transparencia */
+	border-radius: 12px;
+	padding: 20px;
+	box-shadow: 0 0 20px rgba(0, 255, 255, 0.25);
+	backdrop-filter: blur(6px);
+	color: #e0f7fa;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* TÍTULO */
+.comment-title {
+	text-align: center;
+	font-size: 26px;
+	margin-bottom: 25px;
+	color: #00e5ff;
+	text-shadow: 0 0 6px #00bcd4;
+}
+
+/* INPUTS Y TEXTAREA */
+form {
+  margin: 1rem auto;
+}
+form input[type="text"],
+form textarea {
+	width: 80%;
+	padding: 12px;
+	margin-bottom: 15px;
+	border: 1px solid #00bcd4;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.05);
+	color: #e0f7fa;
+	resize: vertical;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+
+form input[type="text"]::placeholder,
+form textarea::placeholder {
+	color: #b2ebf2;
+}
+
+form input[type="text"]:focus,
+form textarea:focus {
+	outline: none;
+	border-color: #00e5ff;
+	background-color: rgba(255, 255, 255, 0.1);
+	box-shadow: 0 0 12px #00e5ff;
+}
+
+/* BOTÓN ENVIAR */
+form input[type="submit"] {
+	background-color: #00bcd4;
+	color: #002b36;
+	border: none;
+	padding: 12px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+	box-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+}
+
+form input[type="submit"]:hover {
+	background-color: #00e5ff;
+	transform: scale(1.05);
+	box-shadow: 0 0 15px #00e5ff;
+}
+
+/* CAJA DE COMENTARIOS */
+.comment-box {
+	background-color: rgba(0, 20, 50, 0.7);
+	padding: 15px;
+	margin-top: 15px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 255, 255, 0.15);
+	color: #ffffff;
+	position: relative;
+}
+
+.comment-box strong {
+	color: #00e5ff;
+}
+
+.comment-box small {
+	color: #b2ebf2;
+	font-size: 12px;
+}
+
+/* BOTÓN ELIMINAR */
+.delete-btn {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+	color: #80deea;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	transition: color 0.2s ease;
+}
+
+.delete-btn:hover {
+	color: #ff5252;
+}
+
