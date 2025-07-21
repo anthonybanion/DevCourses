@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>
+		Comment
+	</title>
+</head>
+
+<body>
+<main>
+	<div class="comment">
+		<h2 class="comment-title">Deja un comentario</h2>
+
+		<!-- Lista de comentarios -->
+		<div id="comments-container"></div>
+		<!-- Formulario -->
+		<form id="comment-form">
+			<input class="comment-input" type="text" name="name" placeholder="Nombre" />
+			<br />
+			<textarea class="comment-textarea" name="comment" placeholder="Comentario" required></textarea>
+			<br />
+			<input class="comment-submit" type="submit" value="Enviar" />
+		</form>
+	</div>
+</main>
+<script src="config.js"></script>
+<script src="key.js"></script>
+<script src="comment.js"></script>
+</body>
+
+</html>
