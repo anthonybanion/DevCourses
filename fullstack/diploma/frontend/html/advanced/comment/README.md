@@ -77,3 +77,9 @@ This project is open source and available under the [MIT License](../../../../..
 ## 📎 Repository
 
 GitHub: [Comment Box](https://github.com/anthonybanion/DevCourses/tree/main/fullstack/diploma/frontend/html/advanced/comment)
+
+---
+
+## 🙏 Acknowledgments
+
+Special thanks to [Valentín](https://github.com/Valentin0122) for the original idea and conceptual input that inspired the creation of this comment box project.
