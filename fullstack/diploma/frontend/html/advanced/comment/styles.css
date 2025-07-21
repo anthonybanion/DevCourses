@@ -117,3 +117,17 @@ form input[type="submit"]:hover {
 	color: #ff5252;
 }
 
+.comment-box p {
+  font-size: 16px;       /* Tamaño legible y estándar */
+  line-height: 1.4;      /* Mejor espaciado vertical */
+  margin: 8px 0 0 0;     /* Un poco de margen arriba para separar del botón y nombre */
+  word-break: break-word; /* Para que no se desborde en palabras largas */
+}
+
+/* Opcional: para que los emojis no escalen demasiado */
+.comment-box p img,
+.comment-box p svg {
+  vertical-align: middle;
+  height: 1em;          /* Tamaño relativo al texto */
+  width: auto;
+}
