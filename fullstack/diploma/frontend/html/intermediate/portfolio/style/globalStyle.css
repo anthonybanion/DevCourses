@@ -24,10 +24,3 @@ small {
   font-size: 0.875rem; /* 14px */
 }
 
-:root {
-    --primary-color: #4A90E2;  /* Primary color for links and buttons */
-    --secondary-color: #F5F5F5;  /* Secondary color for backgrounds */
-    --text-color: #333333;  /* Main text color */
-    --header-height: 3.5rem;  /* Height of the header */
-    --footer-height: 3.5rem;  /* Height of the footer */
-}

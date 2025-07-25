@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/globalStyle.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/presentation.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/skills.css">
+    <link rel="stylesheet" href="style/hobbies.css">
+    <link rel="stylesheet" href="style/formation.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mediaQuery.css">
     <script src="https://kit.fontawesome.com/4f29645879.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
 </head>
@@ -50,31 +57,33 @@
                 <img class="image" src="img/anthony.jpg" alt="Anthony Bañon">
             </div>
                 
-    </section>
-    <section class="about">
-        <div class="about__container">
+        </section>
+        <section class="about" id="about">
             <h2 class="about__title">About me</h2>
             <p class="about__description">My education began at Alura-Latam, where I gained foundational knowledge in web development and database design. I also participated in professional simulations at No-Country, where I applied my skills in a collaborative, real-world environment.<br><br>Currently, I am pursuing a Bachelor’s in Computer Science at Uopleople University and studying Systems Analysis at the Instituto de Formación Técnica Número 12. These studies are providing me with a solid technical foundation and encouraging me to deepen my skills in analyzing and solving complex challenges in technology.</p>
-            <div class="about__signature-container">
-                <img class="about__signature" src="img/firma.png" alt="firma" height="100">
+            <div class="about__signature">
+                <img class="signature" src="img/firma.png" alt="firma">
             </div>
-        </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
         <h2 class="skills__title">Skill</h2>
         <ul class="skills__list">
             <li class="skills__item"><i class="skills__icon fa-brands fa-python"></i>python</li>
             <li class="skills__item"><i class="skills__icon fa-brands fa-php "></i>php</li>
+            <li class="skills__item"><i class="skills__icon fa-brands fa-java"></i>java</li>
+            <li class="skills__item"><i class="skills__icon fa-brands fa-bash"></i>bash</li>
+            <li class="skills__item"><i class="skills__icon fa-brands fa-js"></i>javascript</li>
             <li class="skills__item"><i class="skills__icon fa-brands fa-symfony"></i>symfony</li>
             <li class="skills__item"><i class="skills__icon fa-brands fa-laravel"></i>laravel</li>
-            <li class="skills__item"><i class="skills__icon fa-brands fa-java"></i>java</li>
-            <li class="skills__item"><i class="skills__icon fa-brands fa-js"></i>javascript</li>
+            <li class="skills__item"><i class="skills__icon fa-brands fa-express"></i>express</li>
+            <li class="skills__item"><i class="skills__icon fa-brands fa-rust"></i>rust</li>
             <li class="skills__item"><i class="skills__icon fa-brands fa-html5"></i>html</li>
             <li class="skills__item"><i class="skills__icon fa-brands fa-css3-alt"></i>css</li>
+            <li class="skills__item"><i class="skills__icon fa-brands fa-bootstrap"></i>bootstrap</li>
         </ul>    
     </section>
     
-    <section class="hobbies">
+    <section class="hobbies" id="hobbies">
         <h2 class="hobbies__title">Hobbies</h2>
         <ul class="hobbies__list">
             <li class="hobbies__item"><i class="hobbies__icon fa-solid fa-bicycle "></i> Cycling</li>
@@ -82,15 +91,33 @@
             <li class="hobbies__item"><i class="hobbies__icon fa-regular fa-futbol "></i> Football</li>
             <li class="hobbies__item"><i class="hobbies__icon fa-solid fa-person-running "></i> Running</li>
             <li class="hobbies__item"><i class="hobbies__icon fa-solid fa-laptop "></i> Programming</li>
+            <li class="hobbies__item"><i class="hobbies__icon fa-solid fa-paintbrush "></i> Painting</li>
         </ul>
     </section>
-    <!-- <section class="formation">
+    <section class="formation" id="formation">
         <h2 class="formation__title">Formation</h2>
+        <div class="formation__cards">
+            <div class="card">
+                <img class="card__img" src="https://marketplace.canva.com/EAGlolABIfo/1/0/1600w/canva-certificado-de-reconocimiento-diploma-participaci%C3%B3n-sencillo-verde-t-jJ6hKsT3k.jpg" alt="">
+                <h3 class="card__title">Systems Analysis Training</h3>
+                <p class="card__description">2024-CoderHouse</p>
+            </div>
+            <div class="card">
+                <img class="card__img" src="https://www.educativa.com/wp-content/uploads/2020/09/certificado-ejemplo_-1024x698.jpg" alt="">
+                <h3 class="card__title">Database Design Course</h3>
+                <p class="card__description">2022-EdTeam</p>
+            </div>
+            <div class="card">
+                <img class="card__img" src="https://marketplace.canva.com/EAGoSw4bFKc/1/0/1600w/canva-certificado-de-graduaci%C3%B3n-moderno-elegante-negro-y-dorado-Tktz7NABUMY.jpg" alt="">
+                <h3 class="card__title">Web Development Bootcamp</h3>
+                <p class="card__description">2025-Talento Tech</p>
+            </div>
+        </div>
     </section>
-    <section class="projects">
+    <!-- <section class="projects">
         <h2 class="projects__title">Projects</h2>
     </section> -->
-    <section class="contact">
+    <section class="contact" id="contact">
         <h2 class="contact__title">Contact</h2>
         <p class="contact__description">Do you want to contact me?</p>
         <p class="contact__instruction">Please fill out the form below, and I will contact you as soon as possible</p>

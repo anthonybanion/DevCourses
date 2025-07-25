@@ -1,0 +1,26 @@
+/* Default style (light mode) */
+body {
+background: white;
+color: black;
+transition: all 0.3s ease;
+}
+
+/* Dark theme enabled manually */
+body.dark-mode {
+background: #111;
+color: #eee;
+}
+
+/* Whether the user has a preferred dark mode (only if we don't force anything) */
+@media (prefers-color-scheme: dark) {
+body:not(.dark-mode):not(.light-mode) {
+background: #111;
+color: #eee;
+}
+}
+
+/* Light theme enabled manually (in case you want that option too) */
+body.light-mode {
+background: white;
+color: black;
+}

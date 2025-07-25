@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	function saveComment(comment) {
 		const comments = getComments();
-		comments.push(comment);
+		comments.push(comment );
 		localStorage.setItem("comments", JSON.stringify(comments));
 	}
 
