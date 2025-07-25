@@ -1,0 +1,45 @@
+.formation{
+  min-height: 41.3125rem;  /* 508px */
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.formation__title{
+  font-size: 1.375rem;  /* 22px */
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.formation__cards{
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill, minmax(18.5rem, 1fr)
+    );
+    max-width: 71rem;
+    margin: 0 auto;
+  gap: 1rem 1rem; 
+}
+
+.card{
+  min-height: auto;
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+}
+
+.card__img{
+    display: block;
+    object-fit: cover;  /* Ensure the image covers the container */
+    width: 100%;
+    height: 100%;
+}
+
+.card__title{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card__description{
+  font-size: 0.85rem;
+}

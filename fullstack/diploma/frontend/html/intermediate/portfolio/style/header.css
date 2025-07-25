@@ -1,0 +1,41 @@
+.header__topbar{
+    width: 100%;  /* Full width */
+    height: 3.5rem;  /* 56px */
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* z-index: 100; */
+    margin-bottom: 1rem;
+}
+
+.logo{
+    height: 1.5rem;
+}
+
+.logo__link{    
+    text-decoration: none;
+    height: 100%;
+}
+
+
+.logo__image{
+      height: 100%;
+}
+
+/* shown in tablet/desktop via media query */
+.header__navigation-bar{
+    display: none;
+}
+
+.header__contact{
+    display: inline;
+}
+
+.header__email{
+    font-size: 0.875rem;  /* 14px */
+    font-family: 'Raleway', sans-serif;
+    color: #000000; /* Black text */
+    line-height: 0;  /* 0 line height for email */
+}
