@@ -1,27 +1,28 @@
 .header__topbar{
-    width: 100%;  /* Full width */
-    height: 3.5rem;  /* 56px */
-    position: sticky;
-    top: 0;
+    max-width: 71rem; /* 1136px */
+    margin: 0 auto; /* Center the section */
+    min-height: 3.5rem;  /* 56px */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* z-index: 100; */
     margin-bottom: 1rem;
 }
 
 .logo{
-    height: 1.5rem;
+    height: clamp(1.5rem, 4.5vw, 2rem); /* 24px  to 32px*/
+    
 }
 
 .logo__link{    
     text-decoration: none;
-    height: 100%;
 }
 
 
 .logo__image{
-      height: 100%;
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
 }
 
 /* shown in tablet/desktop via media query */
@@ -31,11 +32,12 @@
 
 .header__contact{
     display: inline;
+    font-size: clamp(0.875rem, 3vw, 1rem); /* 14px to 16px */
 }
 
 .header__email{
-    font-size: 0.875rem;  /* 14px */
+    font-size: 1em;    
     font-family: 'Raleway', sans-serif;
     color: #000000; /* Black text */
-    line-height: 0;  /* 0 line height for email */
+    line-height: 1.2;  
 }
