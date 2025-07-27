@@ -1,6 +1,7 @@
 @media (min-width: 768px) {
   body{
-    padding: 0 2rem; /* 32px */
+    padding-inline: clamp(2rem, calc(-6.571rem + 17.857vw), 9.5rem);
+
   }
 
   .header__topbar{
@@ -8,7 +9,6 @@
   }
 
   .header__email{
-    font-size: 1rem; /* 16px */
     font-weight: bold;  /* Bold for emphasis */
   }
 
@@ -21,13 +21,9 @@
   }
 
   .presentation__information{
-    max-width: 32.75rem;     /* 524px*/
+    max-width: 100%;     /* 524px*/
     min-height: 8.125rem;    /* 130px*/
     order: 1;
-  }
-
-  .presentation__description{
-    font-size: 1rem; /* 16px */
   }
 
   .fa-brands{
@@ -36,8 +32,9 @@
 
   .presentation__image{
     order:1;
-    height: 9.125rem;  /* 146px */
-    width: 9.125rem;  /* 146px */
+    height: clamp(9.125rem, calc(-6.734rem + 33.036vw), 23rem);  /* 146px to 368px */
+    width: clamp(9.125rem, calc(-6.734rem + 33.036vw), 23rem); 
+    flex-shrink: 0; 
   }
   
   /* About */
@@ -47,21 +44,10 @@
   margin-bottom: 2rem; /* 32px */
  }
 
- /* Skill*/
- .skills{
-  min-height: 23.75rem;  /* 380px */
-}
-/*Hobbies*/
- .hobbies{
-  min-height: 15.25rem;  /* 244px */
-}
 }
 
 /* Desktop */
-@media (min-width: 1024px) {
-  body{
-    padding: 0 9.5rem; /* 32px */
-  }
+@media (min-width: 1440px) {
 
   .header__topbar{
     width: 100%;  /* Full width */
@@ -78,7 +64,6 @@
  }
 
  .presentation{
-    min-height: 23rem;  /* 368px */
     padding: 0 0; /* 0 top/bottom, 0 left/right */
  }
 
@@ -87,42 +72,7 @@
     min-height: 15.375rem;    /* 246px */
   }
 
-  .presentation__title{
-    font-size: 3.25rem; /* 52px */
-    line-height: 3.8125rem;  /* 61px */
-  }
-
-  .presentation__description{
-    font-size: 1.375rem; /* 20px */
-    line-height: 1.625rem; /* 26px */
-  }
-
-  .presentation__image{
-    height: 23rem;  /* 368px */
-    width: 23rem;  /* 368px */
-  }
-
   /* About */
-  .about{
-    padding: 4rem  0; /* 64px top/bottom, 0 left/right */ 
-  }
 
-  .about__title{
-    font-size: 2rem;  /* 32px */
-  }
 
-  .about__description{
-    font-size: 1rem;  /* 16px */
-  } 
-
-  /* Skill*/
-  .skills__title{
-    font-size: 2rem;  /* 32px */
-}
-
- /* Hobbies*/
-
- .hobbies__title{
-  font-size: 2rem;  /* 32px */
- }
 }
