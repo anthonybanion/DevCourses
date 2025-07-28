@@ -13,15 +13,5 @@ body {
     padding-inline: clamp(1rem, calc(0.12rem + 3.92vw), 2rem); /* 16px to 32px padding */
     padding-block: 0; /* No top/bottom padding */
 }
-h1 {
-  font-size: 1.375rem; /* 22px */
-}
 
-p {
-  font-size: 0.875rem; /* 14px */
-}
-
-small {
-  font-size: 0.75rem; /* 12px */
-}
 

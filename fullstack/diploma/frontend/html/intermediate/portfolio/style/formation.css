@@ -4,6 +4,7 @@
 }
 
 .formation__cards{
+  display: grid;
   grid-template-columns: repeat(
     auto-fill, minmax(18.5rem, 1fr)
     );

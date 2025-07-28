@@ -1,0 +1,14 @@
+main{
+    min-height: 100vh;
+    display: flex;
+}
+
+main > * {
+    margin: auto;
+}
+div {
+    border: 1px solid #09f;
+    width: 150px;
+    height: 150px;
+    padding: 8px;
+}

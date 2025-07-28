@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  padding: 2rem;
+  background: #fdfdfd;
+  color: #222;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  text-wrap: balance;  /* CSS property to balance text */
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.block {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-left: 5px solid orange;
+}
+
+.block--espaciado p {
+  letter-spacing: 0.1em;  /* Adjusts space between letters */
+  word-spacing: 0.3em;    /* Adjusts space between words */
+  line-height: 2;         /* Adjusts space between lines */
+}
+
+.block--overflow {
+  width: 300px;
+  white-space: nowrap;        /* Prevents text from wrapping */
+  overflow: hidden;          /* Hides overflow text */
+  text-overflow: ellipsis;   /* Displays ellipsis for overflow text */
+  border: 1px solid #ccc;    /* Adds a border for visibility */
+}
+
+.block--alineado p {
+  text-align: justify;       /* Justifies text alignment */
+  text-align-last: right;     /* Aligns the last line to the right */
+}
+
+.block--espaciado-avanzado p {
+  white-space: pre-wrap;      /* Preserves whitespace and wraps text */
+  hyphens: auto;               /* Automatically hyphenates words */
+}
+
+.block--transformado p {
+  text-transform: capitalize;    /* Capitalizes the first letter of each word */
+  font-style: italic;            /* Italicizes text */
+  font-weight: bold;            /* Makes text bold */
+}
+
+.block--decorado p {
+  text-decoration: underline line-through;    /* Underlines and strikes through text */
+}
+
+.block--idioma-rtl p {
+  direction: rtl;                   /* Sets text direction to right-to-left */
+  unicode-bidi: bidi-override;      /* Overrides the default bidirectional text behavior */
+}

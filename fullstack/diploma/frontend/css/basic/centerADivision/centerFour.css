@@ -1,0 +1,15 @@
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div {
+    border: 1px solid green;
+    width: 150px;
+    height: 150px;
+    padding: 8px;
+}

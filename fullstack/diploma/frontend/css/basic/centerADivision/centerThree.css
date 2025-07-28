@@ -1,0 +1,15 @@
+main{
+    min-height: 100vh;
+    position: relative;
+}
+
+div {
+    border: 1px solid #09f;
+    width: 150px;
+    height: 150px;
+    padding: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
