@@ -14,11 +14,11 @@
 let number = 12;
 let real = 12.0;
 
-if (number == real) {
+if (number == real) {  
     console.log("number and real are equal in value");
 } else {
     console.log("number and real are not equal in value");
-}
+} // number and real are equal in value
 
 let nan = NaN;
 if (nan == 0) {
@@ -26,7 +26,7 @@ if (nan == 0) {
 }
 else {
     console.log("NaN is not equal to 0");
-}
+}  // NaN is not equal to 0
 
 let isOne = true;
 let isOtherOne = 1;
@@ -36,7 +36,7 @@ if (isOne == isOtherOne) {
 }
 else {
     console.log("isOne and isOtherOne are not equal in value");
-}
+}  // isOne and isOtherOne are equal in value
 
 console.log({}=={});  
 // Example of comparing an empty object
@@ -48,7 +48,7 @@ if (empty == empty) {
 }
 else {
     console.log("empty is not equal to itself");
-}
+}  // empty is equal to itself
 
 let under = undefined;
 let nul = null;
@@ -59,7 +59,7 @@ if (under == nul) {
 }
 else {
     console.log("undefined and null are not equal in value");
-}
+}  // undefined and null are equal in value; however, they are not equal in type
 
 let array = [1];
 let set = new Set([1]);
@@ -68,7 +68,7 @@ if (array == set) {
 }
 else {
     console.log("array and set are not equal in value");
-}
+}  // array and set are not equal in value
 
 let symbol = Symbol('a');
 let otherSymbol = Symbol('a');
@@ -77,4 +77,4 @@ if (symbol === otherSymbol) {
 }
 else {
     console.log("Symbol and otherSymbol are not equal in value");
-}
+}  // Symbol and otherSymbol are not equal in value

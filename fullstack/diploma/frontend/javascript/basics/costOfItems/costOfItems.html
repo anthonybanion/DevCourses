@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="costOfItems.css">
+    <title>Cost Of Items Sold</title>
+</head>
+<body>
+    <header>
+        <h1>Cost Of Items Sold</h1>
+    </header>
+    <main>
+        <form id="costForm">
+            <label class="label" for="item1">Item 1 - Price:</label>
+            <input class="input" type="number" id="item1" required>
+            <label class="label" for="quantity1">Quantity Sold:</label>
+            <input class="input" type="number" id="quantity1" required>
+            <br>
+            <label class="label" for="item2">Item 2 - Price:</label>
+            <input class="input" type="number" id="item2" required>
+            <label class="label" for="quantity2">Quantity Sold:</label>
+            <input class="input" type="number" id="quantity2" required>
+            <br>
+            <label class="label" for="item3">Item 3 - Price:</label>
+            <input class="input" type="number" id="item3" required>
+            <label class="label" for="quantity3">Quantity Sold:</label>
+            <input class="input" type="number" id="quantity3" required>
+            <br>
+            <label class="label" for="item4">Item 4 - Price:</label>
+            <input class="input" type="number" id="item4" required>
+            <label class="label" for="quantity4">Quantity Sold:</label>
+            <input class="input" type="number" id="quantity4" required>
+            <br>
+            <label class="label" for="item5">Item 5 - Price:</label>
+            <input class="input" type="number" id="item5" required>
+            <label class="label" for="quantity5">Quantity Sold:</label>
+            <input class="input" type="number" id="quantity5" required>
+            <br>
+            <button class="button" type="button" onclick="calculateTotalCost()">Calculate Total Cost</button>
+        </form>
+        <div id="result"></div>
+    </main>
+    <script src="costOfItems.js"></script>
+<footer>
+    <p>&copy; 2023 Cost Of Items Sold</p>
+    <p>Developed by [Your Name]</p>
+</footer>
+</body>
+</html>
