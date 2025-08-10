@@ -23,9 +23,13 @@ let hasChronicDisease = false;
 if(hasChronicDisease === false){
     console.log("low risk");
 } else {
-    if(age>60){
+    if (age > 60 && hasChronicDisease) {
         console.log("high risk");
-    } else if (age>40 && age<=60){
+    } else if (
+        (age > 60 && !hasChronicDisease) ||
+        (age > 40 && age <= 60) ||
+        (hasChronicDisease && age <= 60)
+    ) {
         console.log("medium risk");
     } else {
         console.log("low risk");

@@ -48,7 +48,7 @@ const medalMap = {
   "A-average-moderate": "Gold Medal",
   "A-average-no": "Silver Medal",
   "A-low-active": "Gold Medal",
-  "A-low-moderate": "Gold Medal",
+  "A-low-moderate": "Silver Medal",
   "A-low-no": "Silver Medal",
 
   "B-high-active": "Gold Medal",
