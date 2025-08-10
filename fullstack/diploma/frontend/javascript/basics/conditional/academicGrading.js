@@ -39,5 +39,5 @@ if(grade < MIN_GRADE_TO_RECOVER) {
 } else if(grade < MIN_PASSING_GRADE) {
     console.log(hasEnoughAttendance ? "Make-up" : "Fail due to attendance");
 } else {
-    console.log(hasEnoughAttendance ? "Pass" : "Pass with conditions");
+    console.log(hasEnoughAttendance ? "Pass" : "Conditional pass");
 }
