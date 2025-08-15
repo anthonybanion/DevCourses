@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Behavior Examples</title>
+  <style>
+    form {
+      margin-bottom: 2rem;
+      padding: 1rem;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Form Submission Examples</h1>
+
+  <!-- ❌ Case 1: Just a button (not a real form submission) -->
+  <form id="form1">
+    <h2>1️⃣ Local Interaction Only (No Submit)</h2>
+    <input type="text" id="input1" placeholder="Enter something" />
+    <!-- type="button" means it won't submit the form -->
+    <button type="button" onclick="handleButtonOnly()">Click Me</button>
+    <p id="result1"></p>
+  </form>
+
+  <!-- ✅ Case 2: Real form, using submit listener -->
+  <form id="form2">
+    <h2>2️⃣ Real Form, Logic with JS Event Listener</h2>
+    <input type="text" id="input2" placeholder="Enter your name" />
+    <button type="submit">Submit</button>
+    <p id="result2"></p>
+  </form>
+
+  <!-- ✅ Case 3: type="submit" but logic in onclick -->
+  <form id="form3">
+    <h2>3️⃣ Submit with OnClick Function (event handled)</h2>
+    <input type="number" id="input3" placeholder="Enter a number" />
+    <!-- Still type="submit", but onclick must prevent default -->
+    <button type="submit" onclick="handleWithOnClick(event)">Calculate</button>
+    <p id="result3"></p>
+  </form>
+
+  <script>
+    // 🚫 Form 1: Just a local interaction with no submission
+    function handleButtonOnly() {
+      const value = document.getElementById('input1').value;
+      document.getElementById('result1').textContent = `You typed: ${value}`;
+      // No need to prevent anything here because it's not a submit
+    }
+
+    // ✅ Form 2: Add a JS submit listener
+    document.getElementById('form2').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent page reload
+      const value = document.getElementById('input2').value;
+      document.getElementById('result2').textContent = `Hello, ${value}!`;
+    });
+
+    // ✅ Form 3: Handle submit via onclick, must pass the event manually
+    function handleWithOnClick(event) {
+      event.preventDefault(); // Prevent form from reloading the page
+      const value = document.getElementById('input3').value;
+      const squared = Math.pow(Number(value), 2);
+      document.getElementById('result3').textContent = `Squared: ${squared}`;
+    }
+  </script>
+
+</body>
+</html>

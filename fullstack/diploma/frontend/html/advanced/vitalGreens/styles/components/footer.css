@@ -1,0 +1,5 @@
+.footer{
+    width: 100%;
+    min-height: clamp(12.875rem, calc(9.876rem + 13.33vw), 21.875rem); /* 206px to 350px */
+    background-color: pink;
+}
