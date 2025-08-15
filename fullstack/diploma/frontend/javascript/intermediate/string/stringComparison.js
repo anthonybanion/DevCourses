@@ -1,3 +1,14 @@
+// ==========================================
+// 
+// String Comparison
+//
+// File: stringComparison.js
+// Author: Anthony Bañon
+// Created: 2025-08-15
+// Last Updated: 2025-08-15
+// ==========================================
+
+
 /*Statement:
 String Comparison: 
     Enter two strings and determine if they are equal. */
