@@ -16,7 +16,7 @@ This set of intermediate-level exercises is designed to strengthen your logical 
 
 2. ~~**String Comparison:**~~ Enter two strings and determine if they are equal.
 
-3. **Longest and Shortest String:** Enter two strings and display the longer one first, then the shorter.
+3. ~~**Longest and Shortest String:**~~ Enter two strings and display the longer one first, then the shorter.
 
 4. **String Statistics:** Enter a string ending in a period and report:
 
