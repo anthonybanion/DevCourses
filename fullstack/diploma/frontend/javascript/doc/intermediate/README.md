@@ -12,9 +12,9 @@ This set of intermediate-level exercises is designed to strengthen your logical 
 
 ---
 
-1. **String Length and Uppercase:** Enter a string ending in a period and display its character count. Also, output the string in uppercase.
+1. ~~**String Length and Uppercase:**~~ Enter a string ending in a period and display its character count. Also, output the string in uppercase.
 
-2. **String Comparison:** Enter two strings and determine if they are equal.
+2. ~~**String Comparison:**~~ Enter two strings and determine if they are equal.
 
 3. **Longest and Shortest String:** Enter two strings and display the longer one first, then the shorter.
 
