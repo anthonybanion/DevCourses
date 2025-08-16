@@ -43,7 +43,7 @@ DIAMOND
   AMO
    M
 
-10. **Anagram Checker:** Determine if one string is an anagram of another, ignoring spaces and punctuation.
+10. ~~**Anagram Checker:**~~ Determine if one string is an anagram of another, ignoring spaces and punctuation.
 
 11. **Sales Record Analysis:** For 4 vendors, determine who made the highest and lowest sale. End input when the sale amount is zero.
 
