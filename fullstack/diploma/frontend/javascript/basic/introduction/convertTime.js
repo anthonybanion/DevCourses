@@ -29,7 +29,6 @@ function convertHoursToMinutesAndSeconds(hours) {
 // Example of use:
 const inputHours = 2.75; // 2 hours and 45 minutes
 const result = convertHoursToMinutesAndSeconds(inputHours);
-
 console.log(`Hours: ${inputHours}`);
 console.log(`Minutos totales: ${result.minutes}`);
 console.log(`Segundos restantes: ${result.seconds}`);

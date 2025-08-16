@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* === GLOBAL STYLES === */
+html {
+  font-size: 100%; /* 16px */
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem; /* 16px */
+    line-height: 1.2;  /* 19.2px line height */
+    color: #000000; /* Black text */
+    padding-inline: clamp(1rem, calc(0.334rem + 2.96vw), 3rem); /* 16px to 48px padding */
+    padding-block: 0; /* No top/bottom padding */
+}
+
+

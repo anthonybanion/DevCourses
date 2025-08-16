@@ -11,10 +11,10 @@
 // Classifying a Person in the Healthcare System
 // Ask for a person's age and whether they have any 
 // chronic conditions (yes or no), and then classify them as:
-// "High risk" if they are over 60 years old and have a chronic condition.
-// "Medium risk" if they are between 40 and 60 years old or 
-// have a chronic condition.
-// "Low risk" otherwise.
+//  - "High risk" if they are over 60 years old and have a chronic condition.
+//  - "Medium risk" if they are between 40 and 60 years old or 
+//  - have a chronic condition.
+//  - "Low risk" otherwise.
 
 let age = 68; 
 let hasChronicDisease = false;

@@ -81,16 +81,16 @@ This exercise guide is designed to help beginners develop logical thinking and b
 
     Ask for a number of hours and convert it to minutes and seconds.
 
-17. **Show multiples**
+17. ~~**Show multiples**~~
 
     Read a number and print it along with its first three multiples.
     Example for N = 4 → 4, 8, 12
 
-18. **Two possible quotients**
+18. ~~**Two possible quotients**~~
 
     Read two real numbers and calculate both quotients: A / B and B / A.
 
-19. **Six quotients among three numbers**
+19. ~~**Six quotients among three numbers**~~
 
     Read three distinct numbers and display the six possible quotients.
     (A/B, A/C, B/A, B/C, C/A, C/B)
