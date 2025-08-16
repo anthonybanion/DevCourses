@@ -18,14 +18,14 @@ This set of intermediate-level exercises is designed to strengthen your logical 
 
 3. ~~**Longest and Shortest String:**~~ Enter two strings and display the longer one first, then the shorter.
 
-4. **String Statistics:** Enter a string ending in a period and report:
+4. ~~**String Statistics:**~~ Enter a string ending in a period and report:
 
 - Number of characters
 - Number of vowels
 - Number of spaces
 - Number of words starting with F, f, M, or m
 
-5. **Words with Three Distinct Vowels:** Read several strings and display words with at least three different vowels.
+5. ~~**Words with Three Distinct Vowels:**~~ Read several strings and display words with at least three different vowels.
 
 6. **Palindrome Checker:** Create a program to check whether a word is a palindrome (e.g., RADAR, ANILINA).
 
