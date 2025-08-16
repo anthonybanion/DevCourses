@@ -20,6 +20,6 @@ const rl = readline.createInterface({
 });
 
 rl.question("How old are you? ", function(age) {
-  console.log(`The number of days lived, ${age*365} dias`);
+  console.log(`The number of days lived, ${age*365} days`);
   rl.close();
 });

@@ -16,7 +16,7 @@ function convertHoursToMinutesAndSeconds(hours) {
     // Use Date to create a HH:MM:SS format
     const date = new Date(0); // base epoch
     date.setSeconds(totalSeconds);
-    const timeString = date.toISOString().substr(11, 8); // "HH:MM:SS"
+     const timeString = date.toISOString().slice(11, 19);  // "HH:MM:SS"
 
     return {
         totalSeconds,
@@ -29,8 +29,7 @@ function convertHoursToMinutesAndSeconds(hours) {
 // Example of use:
 const inputHours = 2.75; // 2 hours and 45 minutes
 const result = convertHoursToMinutesAndSeconds(inputHours);
-
-console.log(`Horas: ${inputHours}`);
+console.log(`Hours: ${inputHours}`);
 console.log(`Minutos totales: ${result.minutes}`);
 console.log(`Segundos restantes: ${result.seconds}`);
 console.log(`Formato HH:MM:SS: ${result.formatted}`);

@@ -18,10 +18,8 @@ form.addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent the form from submitting
     const name = event.target[0].value;
     const age = event.target[1].value;
-    console.log("aca");
     if (name && age) {
         alert(`Hello ${name}, you are ${age} years old!`);
-        console.log("aca");
     } else {
         alert("Please enter both your name and age.");
     }

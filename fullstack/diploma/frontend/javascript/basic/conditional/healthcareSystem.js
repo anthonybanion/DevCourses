@@ -13,18 +13,25 @@
 // chronic conditions (yes or no), and then classify them as:
 //  - "High risk" if they are over 60 years old and have a chronic condition.
 //  - "Medium risk" if they are between 40 and 60 years old or 
-//    have a chronic condition.
+//  - have a chronic condition.
 //  - "Low risk" otherwise.
 
-
-let age = 68;
+let age = 68; 
 let hasChronicDisease = false;
 
-// Risk assessment logic (refactored)
-if (age > 60 && hasChronicDisease) {
-    console.log("High risk");
-} else if ((age > 40 && age <= 60) || hasChronicDisease) {
-    console.log("Medium risk");
+// Risk assessment logic
+if(hasChronicDisease === false){
+    console.log("low risk");
 } else {
-    console.log("Low risk");
+    if (age > 60 && hasChronicDisease) {
+        console.log("high risk");
+    } else if (
+        (age > 60 && !hasChronicDisease) ||
+        (age > 40 && age <= 60) ||
+        (hasChronicDisease && age <= 60)
+    ) {
+        console.log("medium risk");
+    } else {
+        console.log("low risk");
+    }
 }
