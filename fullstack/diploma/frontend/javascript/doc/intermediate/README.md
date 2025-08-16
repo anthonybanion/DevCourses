@@ -27,7 +27,7 @@ This set of intermediate-level exercises is designed to strengthen your logical 
 
 5. ~~**Words with Three Distinct Vowels:**~~ Read several strings and display words with at least three different vowels.
 
-6. **Palindrome Checker:** Create a program to check whether a word is a palindrome (e.g., RADAR, ANILINA).
+6. ~~**Palindrome Checker:**~~ Create a program to check whether a word is a palindrome (e.g., RADAR, ANILINA).
 
 7. **Even Number Counter:** Read a series of integers ending with a negative number (do not process it). Count how many are even.
 
