@@ -29,9 +29,9 @@ This set of intermediate-level exercises is designed to strengthen your logical 
 
 6. ~~**Palindrome Checker:**~~ Create a program to check whether a word is a palindrome (e.g., RADAR, ANILINA).
 
-7. **Even Number Counter:** Read a series of integers ending with a negative number (do not process it). Count how many are even.
+7. ~~**Even Number Counter:**~~ Read a series of integers ending with a negative number (do not process it). Count how many are even.
 
-8. **Reverse a String:** Read a string and reverse it.
+8. ~~**Reverse a String:**~~ Read a string and reverse it.
 
 9. **Word Diamond Pattern:** Read a word (up to 20 characters) and print it in the following pattern:
 
