@@ -16,15 +16,15 @@ at least three different vowels.
 */
 
 
-import readline from "readline/promises";
-import { stdin as input, stdout as output } from "process";
+import readline from "node:readline/promises";
+import { stdin as input, stdout as output } from "node:process";
 
 const rl = readline.createInterface({ input, output });
 
 async function threeDistinctVowels() {
     const phrase = await rl.question("Enter a phrase: ");
     const words = phrase.trim().split(/\s+/); // separate by spaces
-    console.log(words);
+
     // Filter words with at least 3 different vowels
     const result = words.filter((word) => {
         const vowels = word  

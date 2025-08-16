@@ -10,7 +10,7 @@
 // ==========================================
 
 
-/*Statemenet:
+/*Statement:
 String Length and Uppercase:
     Enter a string ending in a period and display its character count.
     Also, output the string in uppercase.*/
