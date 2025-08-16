@@ -1,3 +1,14 @@
+// ==========================================
+// 
+// Description: Pyramid Pattern Printing
+//
+// File: pyramidPatternPrinting.js
+// Author: Anthony Bañon
+// Created: 2025-08-15
+// Last Updated: 2025-08-15
+// ==========================================
+
+
 /*Statement:
 Pyramid Pattern Printing
 
@@ -10,9 +21,9 @@ const height = 5; // You can change this value to set the height of the pyramid
 
 function printPyramid(height) {
     for (let i = 1; i <= height; i++) {
-        // espacios iniciales
+        // leading spaces
         const spaces = ' '.repeat(height - i);
-        // estrellas impares
+        // odd stars
         const stars = '*'.repeat(2 * i - 1);
         console.log(spaces + stars);
     }

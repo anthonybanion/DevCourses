@@ -33,13 +33,15 @@ This set of intermediate-level exercises is designed to strengthen your logical 
 
 8. ~~**Reverse a String:**~~ Read a string and reverse it.
 
-9. **Word Diamond Pattern:** Read a word (up to 20 characters) and print it in the following pattern:
+9. ~~**Word Diamond Pattern:**~~ Read a word (up to 21 characters), If the number of characters is even, delete the last character; and print it in the following pattern:
 
-Input: HOLA
+Input: diamond
 Output:
-H O L A
-L O
-A L O H
+   M
+  AMO
+DIAMOND
+  AMO
+   M
 
 10. **Anagram Checker:** Determine if one string is an anagram of another, ignoring spaces and punctuation.
 
