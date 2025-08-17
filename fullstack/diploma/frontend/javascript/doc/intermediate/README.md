@@ -45,7 +45,7 @@ DIAMOND
 
 10. ~~**Anagram Checker:**~~ Determine if one string is an anagram of another, ignoring spaces and punctuation.
 
-11. **Sales Record Analysis:** For 4 vendors, determine who made the highest and lowest sale. End input when the sale amount is zero.
+11. ~~**Sales Record Analysis:**~~ For 4 vendors, determine who made the highest and lowest sale. End input when the sale amount is zero.
 
 12. **High Salary Counter:** Count how many employees have a salary over $25,000. End input when the employee ID is zero.
 
