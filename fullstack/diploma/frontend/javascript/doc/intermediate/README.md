@@ -29,21 +29,23 @@ This set of intermediate-level exercises is designed to strengthen your logical 
 
 6. ~~**Palindrome Checker:**~~ Create a program to check whether a word is a palindrome (e.g., RADAR, ANILINA).
 
-7. **Even Number Counter:** Read a series of integers ending with a negative number (do not process it). Count how many are even.
+7. ~~**Even Number Counter:**~~ Read a series of integers ending with a negative number (do not process it). Count how many are even.
 
-8. **Reverse a String:** Read a string and reverse it.
+8. ~~**Reverse a String:**~~ Read a string and reverse it.
 
-9. **Word Diamond Pattern:** Read a word (up to 20 characters) and print it in the following pattern:
+9. ~~**Word Diamond Pattern:**~~ Read a word (up to 21 characters), If the number of characters is even, delete the last character; and print it in the following pattern:
 
-Input: HOLA
+Input: diamond
 Output:
-H O L A
-L O
-A L O H
+   M
+  AMO
+DIAMOND
+  AMO
+   M
 
-10. **Anagram Checker:** Determine if one string is an anagram of another, ignoring spaces and punctuation.
+10. ~~**Anagram Checker:**~~ Determine if one string is an anagram of another, ignoring spaces and punctuation.
 
-11. **Sales Record Analysis:** For 4 vendors, determine who made the highest and lowest sale. End input when the sale amount is zero.
+11. ~~**Sales Record Analysis:**~~ For 4 vendors, determine who made the highest and lowest sale. End input when the sale amount is zero.
 
 12. **High Salary Counter:** Count how many employees have a salary over $25,000. End input when the employee ID is zero.
 

@@ -4,8 +4,8 @@ Create a program to check whether a word
 is a palindrome (e.g., RADAR, ANILINA).
 */
 
-import readline from "readline/promises";
-import { stdin as input, stdout as output } from "process";
+import readline from "node:readline/promises";
+import { stdin as input, stdout as output } from "node:process";
 
 const rl = readline.createInterface({ input, output });
 
