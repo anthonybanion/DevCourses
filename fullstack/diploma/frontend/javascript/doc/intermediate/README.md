@@ -53,66 +53,99 @@ DIAMOND
 
 14. ~~**Seniority Filter:**~~ In the MZZ company, count how many vendors have more than 10 years of service.
 
-15. **Sales Totalizer:** Enter prices and quantities for 5 items. Calculate and print the total sales for each and the overall total.
+15. ~~**Sales Totalizer:**~~ Enter prices and quantities for 5 items. Calculate and print the total sales for each and the overall total.
 
-16. **Even Number Count (Duplicate of 7):** Same as exercise 7.
+16. ~~**Prime Number Analyzer:**~~
 
-17. **Temperature Analysis:** From daily max and min temps, find:
+- Read 30 random integers into an array.
+- Count how many are prime numbers.
+- Store the prime numbers in a separate array and display them.
+
+17. **Temperature Analysis:**
+From daily max and min temperatures stored in arrays, find:
 
 - Minimum temperature
 - Maximum temperature
 - Maximum of minimums
-- Minimum of maximums (Stop when temp = 99)
+- Minimum of maximums
+(Stop input when a temperature = 99)
 
-18. **Sales Record (Duplicate of 11)**
+18. **Employee Payroll System (OOP + Arrays):**
+- Create an Employee class with name, hourly rate, and hours worked.
+- Store multiple employees in an array.
+- Calculate weekly salary for each employee.
+- Display total payroll for the company.
 
-19. **High Salary Counter (Duplicate of 12)**
+19. **Product Discount Manager (OOP):**
 
-20. **Stock Value Calculator:** From COST, QUANTITY pairs, calculate the total stock value of a supermarket.
+- Create a Product class with name, price, and discount.
+- Store multiple products in an array.
+- Apply the discount to each product and calculate the final price.
+- Show which product has the highest discount.
 
-21. **Asterisk for Evens:** Read integers and display "•••" beside each even. Stop when the sum is ≥ 1000.
+20. **Stock Value Calculator:**
+From COST and QUANTITY arrays, calculate the total stock value of a supermarket.
 
-22. **Above 100 Counter:** From 50 integers, count how many are greater than 100.
+21. **Multiples of 5 Marker:**
 
-23. **Sum of Pairs:** From 50 ordered pairs (X, Y), sum all X's and all Y's and display the results.
+- Read integers into an array.
+- Display each number, and if it’s a multiple of 5, append "###".
+- Stop when the total number of multiples of 5 reaches 20.
 
-24. **Guess the Word Game:**
+22. **Above Average Counter:**
 
-- System randomly selects a word
-- User guesses letter by letter, max 8 errors
-- Each guess scores between 1000 and 10000 points
-- Points are added if correct, multiplied by number of occurrences
+- From 50 integers in an array, calculate the average.
+- Count how many numbers are above the average.
+
+23. **Sum of Vectors (Arrays):**
+
+- Read two arrays of 20 integers each.
+- Create a third array that contains the element-wise sum.
+- Display all three arrays.
+
+24. **Student Grading System (OOP):**
+- Create a Student class with name and an array of grades.
+- Calculate the average grade for each student.
+- Count how many students passed (average ≥ 60).
 
 25. **Character Replacement Function:**
-
-- Accepts a string and two characters
-
-- Replaces all occurrences of the first character with the second
+- Accepts a string and two characters.
+- Replaces all occurrences of the first character with the second.
 
 26. **Trim Extra Spaces Procedure:**
 
-- Remove leading spaces
+- Remove leading spaces.
+- Replace multiple spaces inside with a single space.
+- Remove trailing spaces.
 
-- Replace multiple spaces inside with a single one
+27. **Whitespace Sequence Remover:**
+Function to remove all sequences of spaces longer than 1 from a string.
 
-- Remove trailing spaces
+28. **Whitespace Sequence Remover (Array Version):**
+Same as 27, but modify a character array in-place without using auxiliary arrays.
 
-27. **Whitespace Sequence Remover:** Function to remove all space sequences >1 from a string.
+29. **Library System (OOP):**
 
-28. **Whitespace Sequence Remover (Array Version):** Same as 27, but modifies a character array in-place, without using auxiliary arrays.
+- Create a Book class with title, author, and available copies.
+- Create a Library class to store books in an array.
 
-29. **Hangman Game:**
+Add methods to:
 
-- Player A inputs a word (<30 letters)
-- Player B guesses up to K times
-- Correct letters revealed; wrong letters shown separately
-- Track attempts and remaining chances
-- Show final word if B fails
+- Borrow a book (decrease copies)
+- Return a book (increase copies)
+- Display all books with their availability.
 
-30. **Hangman vs Computer:**
+30. **Bank Account Manager (OOP + Arrays):**
 
-- If one player quits, the computer selects a word
-- Use random generation or a predefined word list for the computer
+- Create an Account class with owner, balance, and ID.
+- Store multiple accounts in an array.
+
+Add methods to:
+
+- Deposit money
+- Withdraw money
+- Transfer between accounts
+- Display balances of all accounts.
 
 ---
 
