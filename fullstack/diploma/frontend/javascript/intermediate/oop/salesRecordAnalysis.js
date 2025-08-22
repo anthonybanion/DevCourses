@@ -30,22 +30,34 @@ class Vendor {
     }
 
     getHighestSale() {
-        return Math.max(...this.sales);
+        return this.sales.length > 0 ? Math.max(...this.sales) : null;
     }
 
     getLowestSale() {
-        return Math.min(...this.sales);
+        return this.sales.length > 0 ? Math.min(...this.sales) : null;
     }
 }
-function analyzeSales(vendors) {
-    let highestSaleVendor = null;
-    let lowestSaleVendor = null;
 
-    vendors.forEach(vendor => {
-        if (!highestSaleVendor || vendor.getHighestSale() > highestSaleVendor.getHighestSale()) {
+function analyzeSales(vendors) {
+    // Filter only those that have sales
+    const vendorsWithSales = vendors.filter(vendor => vendor.sales.length > 0);
+
+    // If none have sales, return null
+    if (vendorsWithSales.length === 0) {
+        return {
+            highest: null,
+            lowest: null
+        };
+    }
+
+    let highestSaleVendor = vendorsWithSales[0];
+    let lowestSaleVendor = vendorsWithSales[0];
+
+    vendorsWithSales.forEach(vendor => {
+        if (vendor.getHighestSale() > highestSaleVendor.getHighestSale()) {
             highestSaleVendor = vendor;
         }
-        if (!lowestSaleVendor || vendor.getLowestSale() < lowestSaleVendor.getLowestSale()) {
+        if (vendor.getLowestSale() < lowestSaleVendor.getLowestSale()) {
             lowestSaleVendor = vendor;
         }
     });
@@ -78,6 +90,10 @@ vendors[3].addSale(400);
 vendors[1].addSale(0); // End input with zero sale
 
 const result = analyzeSales(vendors);
-console.log(`Highest Sale: ${result.highest.vendor} with amount ${result.highest.amount}`);
-console.log(`Lowest Sale: ${result.lowest.vendor} with amount ${result.lowest.amount}`);
 
+if (result.highest && result.lowest) {
+    console.log(`Highest Sale: ${result.highest.vendor} with amount ${result.highest.amount}`);
+    console.log(`Lowest Sale: ${result.lowest.vendor} with amount ${result.lowest.amount}`);
+} else {
+    console.log("No sales recorded for any vendor.");
+}

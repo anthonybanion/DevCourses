@@ -33,7 +33,7 @@ async function evenNumberCounter() {
         if (number >= 0) numberList.push(number);
     } while (number >= 0);
 
-    // Filter pairs
+    // Filter even numbers
     const evenNumbers = numberList.filter(n => n % 2 === 0);
 
     console.log(`You entered ${evenNumbers.length} even numbers.`);

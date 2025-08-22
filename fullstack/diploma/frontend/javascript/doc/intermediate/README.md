@@ -47,9 +47,9 @@ DIAMOND
 
 11. ~~**Sales Record Analysis:**~~ For 4 vendors, determine who made the highest and lowest sale. End input when the sale amount is zero.
 
-12. **High Salary Counter:** Count how many employees have a salary over $25,000. End input when the employee ID is zero.
+12. ~~**High Salary Counter:**~~ Count how many employees have a salary over $25,000. End input when the employee ID is zero.
 
-13. **High Sales Counter:** Count how many employees made sales over 100,000 during the month.
+13. ~~**High Sales Counter:**~~ Count how many employees made sales over 100,000 during the month.
 
 14. **Seniority Filter:** In the MZZ company, count how many vendors have more than 10 years of service.
 
