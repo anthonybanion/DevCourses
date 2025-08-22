@@ -52,7 +52,7 @@ async function SeniorityFilter() {
         }
     }
 
-    // Contar los que tienen más de 10 años
+    // Count vendors with more than 10 years of service
     const count = vendors.filter(v => v.getYears() > 10).length;
 
     console.log(`\nTotal vendors with more than 10 years of service: ${count}`);

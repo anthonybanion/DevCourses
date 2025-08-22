@@ -51,7 +51,7 @@ DIAMOND
 
 13. ~~**High Sales Counter:**~~ Count how many employees made sales over 100,000 during the month.
 
-14. **Seniority Filter:** In the MZZ company, count how many vendors have more than 10 years of service.
+14. ~~**Seniority Filter:**~~ In the MZZ company, count how many vendors have more than 10 years of service.
 
 15. **Sales Totalizer:** Enter prices and quantities for 5 items. Calculate and print the total sales for each and the overall total.
 

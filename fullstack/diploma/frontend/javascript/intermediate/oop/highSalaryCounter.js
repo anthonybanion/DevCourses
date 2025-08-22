@@ -24,11 +24,11 @@ const rl = readline.createInterface({ input, output });
 class Employee {
     #id;
     #name;
-    salary;
+    #salary;
     constructor(id, name, salary) {
         this.#id = id;
         this.#name = name;
-        this.salary = salary;
+        this.#salary = salary;
     }
 
     getId() {
@@ -44,11 +44,11 @@ class Employee {
     }
 
     getSalary() {
-        return this.salary;
+        return this.#salary;
     }
 
     addSalary(salary) {
-        this.salary = salary;
+        this.#salary = salary;
     }
 }
 
