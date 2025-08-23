@@ -70,7 +70,7 @@ From daily max and min temperatures stored in arrays, find:
 - Minimum of maximums
 (Stop input when a temperature = 99)
 
-18. **Employee Payroll System (OOP + Arrays):**
+18. ~~**Employee Payroll System (OOP + Arrays):**~~
 - Create an Employee class with name, hourly rate, and hours worked.
 - Store multiple employees in an array.
 - Calculate weekly salary for each employee.
