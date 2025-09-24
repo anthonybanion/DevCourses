@@ -98,7 +98,7 @@ M
 - From 50 integers in an array, calculate the average.
 - Count how many numbers are above the average.
 
-23. **Sum of Vectors (Arrays):**
+23. ~~**Sum of Vectors (Arrays):**~~
 
 - Read two arrays of 20 integers each.
 - Create a third array that contains the element-wise sum.
