@@ -37,11 +37,11 @@ This set of intermediate-level exercises is designed to strengthen your logical 
 
 Input: diamond
 Output:
-   M
-  AMO
+M
+AMO
 DIAMOND
-  AMO
-   M
+AMO
+M
 
 10. ~~**Anagram Checker:**~~ Determine if one string is an anagram of another, ignoring spaces and punctuation.
 
@@ -62,37 +62,38 @@ DIAMOND
 - Store the prime numbers in a separate array and display them.
 
 17. **Temperature Analysis:**
-From daily max and min temperatures stored in arrays, find:
+    From daily max and min temperatures stored in arrays, find:
 
 - Minimum temperature
 - Maximum temperature
 - Maximum of minimums
 - Minimum of maximums
-(Stop input when a temperature = 99)
+  (Stop input when a temperature = 99)
 
 18. ~~**Employee Payroll System (OOP + Arrays):**~~
+
 - Create an Employee class with name, hourly rate, and hours worked.
 - Store multiple employees in an array.
 - Calculate weekly salary for each employee.
 - Display total payroll for the company.
 
-19. **Product Discount Manager (OOP):**
+19. ~~**Product Discount Manager (OOP):**~~
 
 - Create a Product class with name, price, and discount.
 - Store multiple products in an array.
 - Apply the discount to each product and calculate the final price.
 - Show which product has the highest discount.
 
-20. **Stock Value Calculator:**
-From COST and QUANTITY arrays, calculate the total stock value of a supermarket.
+20. ~~**Stock Value Calculator:**~~
+    From COST and QUANTITY arrays, calculate the total stock value of a supermarket.
 
-21. **Multiples of 5 Marker:**
+21. ~~**Multiples of 5 Marker:**~~
 
 - Read integers into an array.
 - Display each number, and if it’s a multiple of 5, append "###".
 - Stop when the total number of multiples of 5 reaches 20.
 
-22. **Above Average Counter:**
+22. ~~**Above Average Counter:**~~
 
 - From 50 integers in an array, calculate the average.
 - Count how many numbers are above the average.
@@ -104,11 +105,13 @@ From COST and QUANTITY arrays, calculate the total stock value of a supermarket.
 - Display all three arrays.
 
 24. **Student Grading System (OOP):**
+
 - Create a Student class with name and an array of grades.
 - Calculate the average grade for each student.
 - Count how many students passed (average ≥ 60).
 
 25. **Character Replacement Function:**
+
 - Accepts a string and two characters.
 - Replaces all occurrences of the first character with the second.
 
@@ -119,10 +122,10 @@ From COST and QUANTITY arrays, calculate the total stock value of a supermarket.
 - Remove trailing spaces.
 
 27. **Whitespace Sequence Remover:**
-Function to remove all sequences of spaces longer than 1 from a string.
+    Function to remove all sequences of spaces longer than 1 from a string.
 
 28. **Whitespace Sequence Remover (Array Version):**
-Same as 27, but modify a character array in-place without using auxiliary arrays.
+    Same as 27, but modify a character array in-place without using auxiliary arrays.
 
 29. **Library System (OOP):**
 
