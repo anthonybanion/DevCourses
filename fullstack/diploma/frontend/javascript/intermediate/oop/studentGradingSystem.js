@@ -1,3 +1,20 @@
+// ==========================================
+//
+// Description: Student Grading System (OOP)
+//
+// File: studentGradingSystem.js
+// Author: Anthony Bañon
+// Created: 2025-09-24
+// Last Updated: 2025-09-24
+// ==========================================
+
+/*Statement:
+Student Grading System (OOP):
+
+- Create a Student class with name and an array of grades.
+- Calculate the average grade for each student.
+- Count how many students passed (average ≥ 60). */
+
 import readline from "node:readline/promises";
 import { stdin as input, stdout as output } from "node:process";
 

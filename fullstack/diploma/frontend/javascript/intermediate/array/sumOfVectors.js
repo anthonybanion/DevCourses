@@ -1,3 +1,13 @@
+// ==========================================
+//
+// Description: Sum of Vectors (Arrays)
+//
+// File: sumOfVectors.js
+// Author: Anthony Bañon
+// Created: 2025-09-24
+// Last Updated: 2025-09-24
+// ==========================================
+
 /*Statement:
 **Sum of Vectors (Arrays):**
 
