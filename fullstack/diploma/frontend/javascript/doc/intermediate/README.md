@@ -104,13 +104,13 @@ M
 - Create a third array that contains the element-wise sum.
 - Display all three arrays.
 
-24. **Student Grading System (OOP):**
+24. ~~**Student Grading System (OOP):**~~
 
 - Create a Student class with name and an array of grades.
 - Calculate the average grade for each student.
 - Count how many students passed (average ≥ 60).
 
-25. **Character Replacement Function:**
+25. ~~**Character Replacement Function:**~~
 
 - Accepts a string and two characters.
 - Replaces all occurrences of the first character with the second.
