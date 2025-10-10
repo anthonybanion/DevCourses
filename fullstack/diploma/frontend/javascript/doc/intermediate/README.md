@@ -138,7 +138,7 @@ Add methods to:
 - Return a book (increase copies)
 - Display all books with their availability.
 
-30. **Bank Account Manager (OOP + Arrays):**
+~~30. **Bank Account Manager (OOP + Arrays):**~~
 
 - Create an Account class with owner, balance, and ID.
 - Store multiple accounts in an array.
