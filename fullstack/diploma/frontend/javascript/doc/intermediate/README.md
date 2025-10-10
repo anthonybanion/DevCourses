@@ -127,7 +127,7 @@ M
 28. **Whitespace Sequence Remover (Array Version):**
     Same as 27, but modify a character array in-place without using auxiliary arrays.
 
-29. **Library System (OOP):**
+29. ~~**Library System (OOP):**~~
 
 - Create a Book class with title, author, and available copies.
 - Create a Library class to store books in an array.
